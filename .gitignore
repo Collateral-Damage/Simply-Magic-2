@@ -1,0 +1,40 @@
+classes
+saves
+options.txt
+usercache.json
+usernamecache.json
+logs
+libs
+journeymap
+backups
+crash-reports
+screenshots
+local
+minecolonies
+TooManyGravesData
+icon.png
+BotaniaVars.dat
+betterfps.txt
+.analytics
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+libs
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
