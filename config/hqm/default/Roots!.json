@@ -1,0 +1,904 @@
+{
+  "name": "Roots!",
+  "quests": [
+    {
+      "uuid": "994ced21-62f7-4160-a73a-a41f83b5ec9a",
+      "name": "DIY Grass",
+      "description": "There a loads of little life improving little things this mod adds, you can grow grass without needing to move the block with silk touch",
+      "x": 76,
+      "y": 84,
+      "icon": {
+        "id": "roots:growthSalve"
+      },
+      "prerequisites": [
+        "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Growth Powder",
+          "longDescription": "This can be used on dirt to grow grass",
+          "items": [
+            {
+              "item": {
+                "id": "roots:growthSalve"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f79ad2b5-8b46-4b90-b743-5074cd8cbe42",
+      "name": "Crystal Staff",
+      "description": "This staff allows you to hold 4 spells in your staff (switch by shift right-click) and extends the number of uses.",
+      "x": 78,
+      "y": 146,
+      "icon": {
+        "id": "roots:crystalStaff",
+        "nbt": "{uses2:257,uses3:0,uses1:257,potency4:0.0d,uses4:0,size3:0.0d,size4:0.0d,size1:0.0d,size2:0.0d,selected:1,maxUses4:0,maxUses1:257,maxUses3:0,maxUses2:257,effect1:\"whitetulip\",numSlots:4,potency1:0.0d,effect2:\"poppy\",potency2:0.0d,effect3:\"\",potency3:0.0d,effect4:\"\",efficiency2:0.0d,efficiency1:0.0d,efficiency4:0.0d,efficiency3:0.0d}"
+      },
+      "prerequisites": [
+        "9d679895-7dee-4f7c-851b-f344dc541f7c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "crystal staff",
+          "longDescription": "Adding spells to this staff required a special ritual. In addition to the crystal staff and the verdant sprig you will need to burn the spell powder of the spells you want on the staff.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:crystalStaff",
+                "nbt": "{uses2:257,uses3:0,uses1:257,potency4:0.0d,uses4:0,size3:0.0d,size4:0.0d,size1:0.0d,size2:0.0d,selected:1,maxUses4:0,maxUses1:257,maxUses3:0,maxUses2:257,effect1:\"whitetulip\",numSlots:4,potency1:0.0d,effect2:\"poppy\",potency2:0.0d,effect3:\"\",potency3:0.0d,effect4:\"\",efficiency2:0.0d,efficiency1:0.0d,efficiency4:0.0d,efficiency3:0.0d}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ffba551f-7638-4816-b914-ef431c709750",
+      "name": "Living tools",
+      "x": 21,
+      "y": 148,
+      "icon": {
+        "id": "roots:livingSword"
+      },
+      "prerequisites": [
+        "4f2bd319-8554-4953-9d83-56de8e82d5cf"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9d679895-7dee-4f7c-851b-f344dc541f7c",
+      "name": "Mundane Standing Stones",
+      "description": "The next tier in rituals is going to require 8 mundane standing stones. these are aranged how you see in the Runic Tablet (3 blocks from the casting altar in a circle around it)",
+      "x": 78,
+      "y": 115,
+      "icon": {
+        "id": "roots:standingStoneT1"
+      },
+      "prerequisites": [
+        "4f2bd319-8554-4953-9d83-56de8e82d5cf"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Mundane standing stones",
+          "items": [
+            {
+              "item": {
+                "id": "roots:standingStoneT1"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "59ce0a70-5db6-40e6-9ecf-adac59ee096c",
+      "name": "Armor",
+      "description": "Roots adds its own armor too. OPTIONS. There is a set of robes and armor",
+      "x": 106,
+      "y": 147,
+      "icon": {
+        "id": "roots:druidRobesChest"
+      },
+      "prerequisites": [
+        "0926d1ba-59cc-4e94-82de-ce0a43b72fd9"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Your robes",
+          "longDescription": "Robes provide a little protection but the main selling point is auto-repair faster terra regeneration and when wearing a full set your spells are more efficient.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:druidRobesHead"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:druidRobesChest"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:druidRobesLegs"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:druidRobesBoots"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Your Armor *click click*",
+          "longDescription": "This armor provided more protection then the robes but doesn\u0027t provide the terra regen increase and spell efficiency. They do will auto-repair.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:druidArmorHead"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:druidArmorChest"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:druidArmorLegs"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:druidArmorBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5ded2ba7-5c62-46f2-93af-b5bfb83532e2",
+      "name": "Sprite Guardian",
+      "description": "Now its time for the big fish the sprite guardian. he drops some serious things.",
+      "x": 137,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "nbt": "{EntityTag:{id:\"roots.spriteGuardian\"}}"
+      },
+      "prerequisites": [
+        "1bed26bb-51c9-4dc2-abab-b5d033393a0b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Charm",
+          "longDescription": "These charms are end game. They are used in place of spell dust in an infuser or the spell binding ritual.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:charmRestoration"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:charmEvocation"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:charmConjuration"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:charmIllusion"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d290862b-820d-4282-9aa2-7a0c31646718",
+      "name": "Spellweaver Lance",
+      "description": "The melee alternative to the projectile staff is the spellweaver lance. It will cause a spell effect a few seconds are hitting.",
+      "x": 168,
+      "y": 147,
+      "icon": {
+        "id": "roots:spellweaverLance"
+      },
+      "prerequisites": [
+        "0926d1ba-59cc-4e94-82de-ce0a43b72fd9"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Lance",
+          "items": [
+            {
+              "item": {
+                "id": "roots:spellweaverLance"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8164095d-f0b3-4fbb-bce1-f16fdd15e48a",
+      "name": "Punching Grass",
+      "description": "In this mod you get started like a lot of magic/nature mods, punch tall grass",
+      "x": 24,
+      "y": 17,
+      "icon": {
+        "id": "roots:oldRoot"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Old Root",
+          "longDescription": "Punch tall grass till you have an old root (and maybe a few seeds)",
+          "items": [
+            {
+              "item": {
+                "id": "roots:oldRoot"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8ba8014-f27c-46d7-b1af-4ef6e11f0b32",
+      "name": "Harvesting Bark",
+      "description": "There is loads of materials needed to progress through Roots. One is bark.",
+      "x": 54,
+      "y": 16,
+      "icon": {
+        "id": "roots:druidKnife"
+      },
+      "prerequisites": [
+        "d7624bbd-2b1c-4598-83cc-95f67cf1e136"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Bark Knife",
+          "longDescription": "Get some saplings and craft yourself a supple bark knife",
+          "items": [
+            {
+              "item": {
+                "id": "roots:druidKnife"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Woof",
+          "longDescription": "Collect some bark you will need it later",
+          "items": [
+            {
+              "item": {
+                "id": "roots:oakTreeBark"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:spruceTreeBark"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:birchTreeBark"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:jungleTreeBark"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:acaciaTreeBark"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:darkOakTreeBark"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "424d5554-f055-44cb-ad09-bd403654ce24",
+      "name": "Rare resources",
+      "description": "There are a few resources that you will need a handful of while you play around with roots. Some of these you will need to progress abit further into minecraft so don\u0027t rush this one.",
+      "x": 23,
+      "y": 83,
+      "icon": {
+        "id": "roots:infernalStem"
+      },
+      "prerequisites": [
+        "d7624bbd-2b1c-4598-83cc-95f67cf1e136"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Resources",
+          "longDescription": "Verdant Sprigs are a 1/30 chance from harvesting crops, Infernal bulbs are 1/20 from harvesting netherwart, and Dragon\u0027s eyes are 1/10 chance from chorus flowers, old roots are from the tall grass at a chance of 1/40",
+          "items": [
+            {
+              "item": {
+                "id": "roots:verdantSprig"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "roots:infernalStem"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "roots:dragonsEye"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "roots:oldRoot"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "03631b20-707f-4e91-8a93-ded6333271e4",
+      "name": "Recharging staff",
+      "description": "You can use a recharging ritual to charge the uses on your spells. This avoids loosing the spells and having to recraft them. You will need a lesser sprite near for this ritual",
+      "x": 108,
+      "y": 15,
+      "prerequisites": [
+        "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1bed26bb-51c9-4dc2-abab-b5d033393a0b",
+      "name": "Greater Sprite",
+      "description": "To summon the greater sprite you will need 2 lesser and 1 common sprite this time",
+      "x": 136,
+      "y": 50,
+      "icon": {
+        "id": "roots:greaterSpriteIcon"
+      },
+      "prerequisites": [
+        "385595f3-40a1-458d-b184-57d0eedae5d6"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "this greater sprite need 8 different flowers in braziers to summon",
+          "mobs": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 90
+              },
+              "mob": "roots.greaterSprite",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfa2bdeb-30cc-45f0-948a-421f5763e735",
+      "name": "Root stew",
+      "description": "Instead of eating just the roots you can combine them with a bowl and wheat for a little better return.",
+      "x": 23,
+      "y": 115,
+      "icon": {
+        "id": "roots:rootyStew"
+      },
+      "prerequisites": [
+        "424d5554-f055-44cb-ad09-bd403654ce24"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Rooty stew",
+          "longDescription": "nothing to see here just make the stew",
+          "items": [
+            {
+              "item": {
+                "id": "roots:rootyStew"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3",
+      "name": "Spirit font",
+      "description": "This object I highly recomended to help with the summoning a common and greater sprite. ",
+      "x": 107,
+      "y": 50,
+      "icon": {
+        "id": "roots:spiritFont"
+      },
+      "prerequisites": [
+        "3e5ef1bc-2d1c-4a76-b766-77dc61953a12"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "font for spirit",
+          "longDescription": "To make this font work we need 2 things, water and plants. Water nearby determines capacity and plants determine the rate. once working it will hold sprites close by",
+          "items": [
+            {
+              "item": {
+                "id": "roots:spiritFont"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7624bbd-2b1c-4598-83cc-95f67cf1e136",
+      "name": "Mods add books now",
+      "description": "Now with this modpack was first concieved it was to solve a problem, magic mods don\u0027t tell you how to get started. Well now most mods have documentation and now you get the one for roots.",
+      "x": 24,
+      "y": 50,
+      "icon": {
+        "id": "roots:runedTablet"
+      },
+      "prerequisites": [
+        "8164095d-f0b3-4fbb-bce1-f16fdd15e48a"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Runic Tablet",
+          "longDescription": "So are the first two quests taught you how to get the in game documentation for Roots. Now you really don\u0027t need me to hold your hand but if you feel like it continue the quests.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:runedTablet"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "385595f3-40a1-458d-b184-57d0eedae5d6",
+      "name": "Common Sprites",
+      "description": "Now that you have summoned a lesser sprite you can use one lesser sprite to summon a common sprite.",
+      "x": 136,
+      "y": 81,
+      "icon": {
+        "id": "roots:spriteIcon"
+      },
+      "prerequisites": [
+        "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3",
+        "3e5ef1bc-2d1c-4a76-b766-77dc61953a12"
+      ],
+      "tasks": [
+        {
+          "type": "KILL",
+          "longDescription": "the common sprite needs 6 different flowers burning in brazier to summon",
+          "mobs": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 90
+              },
+              "mob": "roots.sprite",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0b234534-69fd-4172-bd99-17b9589b8990",
+      "name": "SpellCraft",
+      "description": "Inorder to keep this book a little neat I will lead you to making your first staff but which you make is up to you.",
+      "x": 79,
+      "y": 29,
+      "icon": {
+        "id": "roots:imbuer"
+      },
+      "prerequisites": [
+        "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Imbuer",
+          "longDescription": "The object is placed in world. You will place a stick and your spell powered in it and out will pop your staff",
+          "items": [
+            {
+              "item": {
+                "id": "roots:imbuer"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Spell powder",
+          "longDescription": "You will need to make spell powder, consult your Runic Tablet and pick one that interest you. All spell powder requires you add a base ingredient. Old root allows no modifiers, verdant sprig allows 1 modifier, infernal bulb allows 2, and dragon\u0027s eyes allow 3. You can also add glowstone to increse power, redstone to decrease the cost, and gunpowder to increase the area it effects",
+          "items": [
+            {
+              "item": {
+                "id": "roots:dustPetal"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Staff",
+          "longDescription": "Once again you can make whatever staff you want. your staff will depend on the powder you made",
+          "items": [
+            {
+              "item": {
+                "id": "roots:staff",
+                "damage": 1,
+                "nbt": "{effect1:\"poppy\",numSlots:1,potency1:2.0d,uses1:97,maxUses1:97,size1:0.0d,efficiency1:0.0d,selected:1}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7",
+      "name": "Mortar and Pestle",
+      "description": "The mortar and pestle is one of the main tools to start you in spellcrafting but the pestle is also using in some crafting recipes (not used up)",
+      "x": 59,
+      "y": 51,
+      "icon": {
+        "id": "roots:mortar"
+      },
+      "prerequisites": [
+        "d7624bbd-2b1c-4598-83cc-95f67cf1e136"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Nose to the grindstone",
+          "longDescription": "The mortar can be placed in world and the pestle used on it.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:pestle"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:mortar"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e60a9afa-7f58-4a28-996a-01a0ab6bd191",
+      "name": "Little Heal",
+      "description": "Using some of the Verdant sprigs you can make a little healing salve. Pro to this is they stack",
+      "x": 50,
+      "y": 83,
+      "icon": {
+        "id": "roots:healingPoultice"
+      },
+      "prerequisites": [
+        "424d5554-f055-44cb-ad09-bd403654ce24",
+        "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Healing Poultice",
+          "longDescription": "Apply daily to affected area",
+          "items": [
+            {
+              "item": {
+                "id": "roots:healingPoultice"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4f2bd319-8554-4953-9d83-56de8e82d5cf",
+      "name": "Rituals",
+      "description": "Now you can start your entrance into rituals. You will need a few basic blocks to get started",
+      "x": 51,
+      "y": 115,
+      "icon": {
+        "id": "roots:altar"
+      },
+      "prerequisites": [
+        "424d5554-f055-44cb-ad09-bd403654ce24"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Runestone",
+          "longDescription": "Basic block used in crafting the blocks need in rituals. Also can be used as decoration",
+          "items": [
+            {
+              "item": {
+                "id": "roots:runeStone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Casting Altar",
+          "longDescription": "Casting altar is the bread and butter to rituals. You will need one in the center of all rituals",
+          "items": [
+            {
+              "item": {
+                "id": "roots:altar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Incense Brazier",
+          "longDescription": "Incense Braziers are used to burn items needed in rituals. You should make 2 of these to start. Objects to be burned are the ones next to the flame in the symbol in the runic tablet.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:brazier"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b6fea165-f5d5-4fce-b1f8-6fc82b5b6225",
+      "name": "Projectile Staff",
+      "description": "Using a ritual we can turn a simple stick into a staff capable of shooting spells instead of bursts. It holds 4 spells like the crystal staff.",
+      "x": 135,
+      "y": 148,
+      "icon": {
+        "id": "roots:projectileStaff"
+      },
+      "prerequisites": [
+        "0926d1ba-59cc-4e94-82de-ce0a43b72fd9"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "pew pew",
+          "items": [
+            {
+              "item": {
+                "id": "roots:projectileStaff"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0926d1ba-59cc-4e94-82de-ce0a43b72fd9",
+      "name": "Enhanced Standing Stones",
+      "description": "In order to preform the most advanced rituals you will need some upgraded standing stones",
+      "x": 106,
+      "y": 115,
+      "icon": {
+        "id": "roots:standingStoneT2"
+      },
+      "prerequisites": [
+        "9d679895-7dee-4f7c-851b-f344dc541f7c"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Attuned Standing Stones",
+          "longDescription": "you will need 4 of these stones (2 blocks from the mundane standing stones in the 4 cardnal directions)",
+          "items": [
+            {
+              "item": {
+                "id": "roots:standingStoneT2"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a7141f4d-8cea-46da-94e9-0cfa96aa7385",
+      "name": "Wildwood",
+      "x": 48,
+      "y": 146,
+      "icon": {
+        "id": "roots:logWildwood"
+      },
+      "prerequisites": [
+        "9d679895-7dee-4f7c-851b-f344dc541f7c"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bec0b78d-8713-46de-a747-71b7e5d00844",
+      "name": "Energized Standing Stones",
+      "description": "Standing stones when energized can be placed in the world to have effects on you and the surrounding enviroment.",
+      "x": 135,
+      "y": 116,
+      "icon": {
+        "id": "roots:standingStoneRepulsor"
+      },
+      "prerequisites": [
+        "0926d1ba-59cc-4e94-82de-ce0a43b72fd9"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Energized",
+          "longDescription": "make them PLZ",
+          "items": [
+            {
+              "item": {
+                "id": "roots:standingStoneVacuum"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:standingStoneRepulsor"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:standingStoneAccelerator"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:standingStoneAesthetic"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:standingStoneEntangler"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:standingStoneIgniter"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:standingStoneGrower"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:standingStoneHealer"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3e5ef1bc-2d1c-4a76-b766-77dc61953a12",
+      "name": "Sprites",
+      "description": "Feel free to read the passage on what sprites are in the runic tablet. I will just be showing you the uses for them.",
+      "x": 106,
+      "y": 83,
+      "icon": {
+        "id": "roots:spritelingIcon"
+      },
+      "prerequisites": [
+        "0926d1ba-59cc-4e94-82de-ce0a43b72fd9"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Flowers",
+          "longDescription": "It is not shown on the setup picture for this ritual but you will need to burn 4 different flowers in the braziers for this ritual",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "minecraft:spawn_egg",
+                "damage": 90
+              },
+              "mob": "roots.spriteling",
+              "kills": 1,
+              "exact": false
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "After reading up a little on sprites bring one to this world. Unfortunatly you will need to kill one of these to get a otherworld leaf. Once you kill the sprite you will need to destroy it to obtain the leaf.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:otherworldLeaf"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
