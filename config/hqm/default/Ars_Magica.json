@@ -1,5 +1,697 @@
 {
   "name": "Ars Magica",
-  "quests": [],
+  "description": "In this section you will find out about the world of Ars Magica. Ars Magica allows you to create your own spells along with obtaining some great loot.",
+  "quests": [
+    {
+      "uuid": "4d5c6d4d-b0fb-4275-8e8b-bf7f40fc8b40",
+      "name": "Spell Book",
+      "description": "After creating a few spells your inventory can become full quite quickly. To prevent this from happening you may want to create a spell book. You can even dye it (just make sure it\u0027s empty first). To use it shift right click and put in your spells. Next equip it on your hotbar and shift scroll to select a spell. A more powerful spellbook can also be obtained (The arcane spellbook) this is obtained by killing the Arcane Guardian.",
+      "x": 290,
+      "y": 14,
+      "icon": {
+        "id": "arsmagica2:spell_book",
+        "nbt": "{spellbookactiveslot:0}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:spell_book",
+                "nbt": "{spellbookactiveslot:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:mana_potion_bundle",
+          "damage": 259
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d9527f4c-947d-411f-8dde-8216ccae9734",
+      "name": "Armor Inbuement Table",
+      "description": "As you may have noticed your armor now picks up XP when you are being hit and when you are hitting other mobs. This can be used in a armor imbuement table to add certain effect to your armor. Once the effect is added the XP is used up.",
+      "x": 207,
+      "y": 101,
+      "icon": {
+        "id": "arsmagica2:armor_imbuer"
+      },
+      "prerequisites": [
+        "29c317cf-ed5c-4ca7-9c60-95bece4bd2b6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:armor_imbuer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:mana_cake",
+          "amount": 5
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6700fe82-0772-46b1-8b10-ae20bcd548e5",
+      "name": "Dark Essence",
+      "description": "Another more advanced essence is dark essence. To create this you need to make a Black Aurem. This is made by performing the ritual of corruption on an obelisk. To perform the ritual of corruption first place the obelisk in a clear area. Next you will have to draw the number eight with wizard\u0027s chalk and the obelisk in the centre make sure that the top and bottom part of the eight are indented one block. Next to the centre top/bottom part of the eight place a warding candle. After you have created that throw a monster focus and sunstone into the shape of the chalk and simply cast a projectile fire damage spell directly at the obelisk.",
+      "x": 186,
+      "y": 54,
+      "icon": {
+        "id": "arsmagica2:black_aurem"
+      },
+      "prerequisites": [
+        "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
+        "117e6c78-b1fb-4dcd-8623-631a8d4cf711"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:obelisk"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:chalk"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:mob_focus"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:item_ore",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:warding_candle"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "arsmagica2:infinity_orb",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2d91cdf6-665f-4643-a596-6b8b192fa519",
+      "name": "Light Essence",
+      "description": "Another more advanced essence is light essence, this is also used in spell creation. This is made by the celestial prism out of daylight. You can create the celestial prism by performing the ritual of purification on a standard obelisk. To perform the ritual place down the obelisk in a clear area next draw an X-shaped ring around the obelisk with wizard\u0027s chalk and place warding candles in the outside corners of the cross. After you have created that you have to throw a mana focus and moonstone into the cross. To finish the ritual simply cast a projectile light spell at the obelisk and the celestial prism should have been created. To link it with your crafting altar follow the same step in the neutral essense task.",
+      "x": 186,
+      "y": 20,
+      "icon": {
+        "id": "arsmagica2:celestial_prism"
+      },
+      "prerequisites": [
+        "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
+        "117e6c78-b1fb-4dcd-8623-631a8d4cf711"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:obelisk"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:chalk"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:mana_focus"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:item_ore",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:warding_candle"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "arsmagica2:infinity_orb",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "34e5df4e-9ee5-4f7c-bff0-7807fe4a27dd",
+      "name": "Spell Creation-The Occulus",
+      "description": "Next you are going to get to spell creation. Before you can do that however you will need to craft an an occulus. Once you have crafted it place it down and right click on it, this is where you pick what skills you want to spend your points on. For getting started we recommend getting touch and dig in the utilities tree. What ever you do DO NOT pick one from each tree as you will not be able to create a spell.",
+      "x": 68,
+      "y": 20,
+      "icon": {
+        "id": "arsmagica2:occulus"
+      },
+      "prerequisites": [
+        "d31e59c7-3735-4df2-a910-750ec68c08c2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:occulus"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:writable_book",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "29c317cf-ed5c-4ca7-9c60-95bece4bd2b6",
+      "name": "Basic Ars Magica Armor",
+      "description": "The most basic armor in ars magica is the mage armor. Each part of the armor will grant you certain effect when worn. This armor however isn\u0027t very protective.",
+      "x": 234,
+      "y": 69,
+      "icon": {
+        "id": "arsmagica2:helmet_mage"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:helmet_mage"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:chest_mage"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:legs_mage"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:boots_mage"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3220a889-81c7-4cc9-a014-3e387fa2f539",
+      "name": "Spell Creation- The Inscription Table",
+      "description": "Now you have picked your skills we can build your first spell. To do this you will have to craft an inscription table. Once crafted place it down and right click on it. Place a book and quill in the middle slot and pull it out once you have done creating your spell. To create your spell you have to select at least one shape component (These are how the spell is cast e.g Self, projectile or touch) and place them in one of the large squares along the bottom (Think of the large squares as different modes for your spell). Next you will have to add a component to your spell these go in the bar along the bottom once you have made your spell name it (The black box) and pull out the book. You should now be able to read the book with it telling you the shapes and components that you placed in the spell along with the required materials that you need to make it.",
+      "x": 108,
+      "y": 20,
+      "icon": {
+        "id": "arsmagica2:inscription_table"
+      },
+      "prerequisites": [
+        "34e5df4e-9ee5-4f7c-bff0-7807fe4a27dd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:inscription_table"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:item_ore",
+          "amount": 5
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
+      "name": "Neutral Essence",
+      "description": "As you may have discovered some spells require essence. The most basic essence is neutral essence. This is created by crafting an Obelisk. To get it to creat some neutral essence place it near your crafting altar and then place either vinteum dust into it or a bucket of liquid essence. You will then have to link it to your crafting altar, you do this by shift right clicking it with a crystal wrench then doing the same to the crafting altar block in your crafting altar. To add the essence in a spell creation just flick the lever on the altar",
+      "x": 144,
+      "y": 55,
+      "icon": {
+        "id": "arsmagica2:obelisk"
+      },
+      "prerequisites": [
+        "117e6c78-b1fb-4dcd-8623-631a8d4cf711"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:obelisk"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:item_ore",
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b70ab6c0-117d-476b-8e42-7614e8a43dc1",
+      "name": "Ore/Flowers",
+      "description": "As you have most likely seen already ars magica as some world gen into your world. These include flowers and ores. These are used in spell creation and some recipes.",
+      "x": 28,
+      "y": 54,
+      "icon": {
+        "id": "arsmagica2:aum"
+      },
+      "prerequisites": [
+        "d31e59c7-3735-4df2-a910-750ec68c08c2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:cerublossom"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:wakebloom"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:aum"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:tarma_root"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:desert_nova"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:item_ore",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:item_ore",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:ore"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4f3cc384-7717-488a-aab3-2af153e5b3b4",
+      "name": "Mana",
+      "description": "As you will find out whislt you go around casting spells your mana will become low. There are several ways to regain your mana. The most common is to wait for it to regenerate. Another way is to create mana cakes and mana potions. The final way is to stand next to a full obelisk as it will grant you with the mana regen effect.",
+      "x": 290,
+      "y": 44,
+      "icon": {
+        "id": "arsmagica2:legendary_mana_potion"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:mana_cake"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:lesser_mana_potion"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:mana_potion_bundle",
+          "damage": 259
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2b9ff618-a1d4-4939-8a7c-ebb08851a596",
+      "name": "Battlemage Armor",
+      "description": "Another armor added by ars magica is battlemage armor this armor is a lot more protective than mage armor however more expensive to craft. This armor also gives the player certain effects along with making the players spells slightly more powerful.",
+      "x": 234,
+      "y": 101,
+      "icon": {
+        "id": "arsmagica2:helmet_battlemage"
+      },
+      "prerequisites": [
+        "29c317cf-ed5c-4ca7-9c60-95bece4bd2b6"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:helmet_battlemage"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:chest_battlemage"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:legs_battlemage"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:boots_battlemage"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d8e53e02-1425-4014-91b7-274c662fc2e3",
+      "name": "Skill Points And Infinity Orbs",
+      "description": "As you now know you need skill points to unlock new components and shapes for your spells. Once way to get these is through leveling up (every even level will give you a new skill point). However you can also unlock these by obtaining infinity orbs. Infinity orbs can be found in dungeons/fortress chests or obtained as loot from killing Guardians. To spawn guardians see the arcane compendium bosses tab.",
+      "x": 68,
+      "y": 53,
+      "icon": {
+        "id": "arsmagica2:infinity_orb",
+        "damage": 2
+      },
+      "prerequisites": [
+        "34e5df4e-9ee5-4f7c-bff0-7807fe4a27dd"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:infinity_orb"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eaa7b4d7-3dbd-4a35-b86b-5e28c46ddf14",
+      "name": "Tools",
+      "description": "To help out along the way you will need to create a couple of tools. You will need to create a crystal wrench which is used to link blocks together. You will also have to create a magitech\u0027s staff this will give you more information about certain blocks.",
+      "x": 259,
+      "y": 14,
+      "icon": {
+        "id": "arsmagica2:spell_staff_magitech"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:crystal_wrench"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:spell_staff_magitech"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:mana_cake",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3afe3b6b-2e00-4eda-8e90-fdabf7d117ca",
+      "name": "Guardians",
+      "description": "As you now know guardians can be useful for getting infinity orbs, however they are also useful for getting other special items that they drop. To create a guardian look in the arcane compendium under the bosses tab.",
+      "x": 68,
+      "y": 84,
+      "icon": {
+        "id": "arsmagica2:nature_scythe",
+        "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+      },
+      "prerequisites": [
+        "d8e53e02-1425-4014-91b7-274c662fc2e3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:nature_scythe",
+                "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:winter_arm",
+                "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:air_sled",
+                "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:arcane_spellbook",
+                "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:earth_armor",
+                "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:ender_boots"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:fire_ears",
+                "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:life_ward"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:lightning_charm"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:water_orbs",
+                "nbt": "{ench:[0:{lvl:1s,id:15s}]}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:infinity_orb",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d31e59c7-3735-4df2-a910-750ec68c08c2",
+      "name": "Getting Started",
+      "description": "To get started with Ars Magica you are going to want to create the Arcane Compendium. To create this you are going to have to find a pool of Liquid Essence in the world. They generally generate in 2x2 pools. Next you are going to have to place an item frame next to the pool and place a book into the item frame that you have just placed. You should start to see particles generating and heading towards the book. After a few seconds the compendium will be created and you will have the information you need for Ars Magica.",
+      "x": 28,
+      "y": 21,
+      "icon": {
+        "id": "arsmagica2:arcane_compendium"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:arcane_compendium"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "117e6c78-b1fb-4dcd-8623-631a8d4cf711",
+      "name": "Spell Creation-Crafting Altar",
+      "description": "The final stage in creating a spell is to create a crafting altar. This is where your spell are turned into spell that you can cast.To create a crafting altar you can look in the arcane compendium under the structures tab. The materials that you use to create the altar effect how powerful your spells can be. For example if you created the altar out of oak wood planks and glass caps then your spell would only be able to have 2 effects. If you put in a spell that had more than 2 effects it could explode. Once built to finally create the spell place the book into the lectern and throw in a blank rune. This starts the creation of any spell, next just follow the items required (shown above the lectern). Once complete the spell with drop in the altar and you can right click to name and select an icon for that spell once you exit that menu you will be able to right click the spell to cast it.",
+      "x": 144,
+      "y": 20,
+      "icon": {
+        "id": "arsmagica2:crafting_altar"
+      },
+      "prerequisites": [
+        "3220a889-81c7-4cc9-a014-3e387fa2f539"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "arsmagica2:crafting_altar"
+              }
+            },
+            {
+              "item": {
+                "id": "arsmagica2:magic_wall"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "arsmagica2:infinity_orb"
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
   "reputationBar": []
 }
