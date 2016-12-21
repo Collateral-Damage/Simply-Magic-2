@@ -1,0 +1,196 @@
+{
+  "name": "Introduction And Misc",
+  "description": "Welcome to Simply Magic 2! This pack is currently in development. Cheers! - BaileyH, Brizzle",
+  "quests": [
+    {
+      "uuid": "7256d5a5-f159-485d-9623-99ad30bd79a2",
+      "name": "Loot Bags",
+      "x": 54,
+      "y": 15,
+      "icon": {
+        "id": "hardcorequesting:bags",
+        "damage": 4
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cb3a6f4d-9738-4a76-9870-73919133fc27",
+      "name": "Script Changes",
+      "x": 23,
+      "y": 15,
+      "icon": {
+        "id": "arsmagica2:bound_pickaxe"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
+      "name": "Waystones",
+      "x": 57,
+      "y": 73,
+      "icon": {
+        "id": "waystones:waystone"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:hqmInvalidItem"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c1f635d2-35a7-4a12-ab05-51b442e3efa2",
+      "name": "Sapling Replant",
+      "description": "Thanks to Event Tweaks, saplings will auto replant when dropping from leaf blocks. This can be disabled in the Event Tweaks config file.",
+      "x": 22,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:sapling"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0",
+      "name": "Reliquary",
+      "x": 55,
+      "y": 45,
+      "icon": {
+        "id": "xreliquary:alkahestry_tome",
+        "damage": 1001
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "917b3cd6-88c1-4fe0-9542-516067b27980",
+      "name": "MineColonies",
+      "x": 188,
+      "y": 23,
+      "icon": {
+        "id": "minecolonies:supplyChestDeployer"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:hqmInvalidItem"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "49dd5e95-5dd4-4aa9-b249-1fb582ac2ec7",
+      "name": "Soul Shards",
+      "x": 239,
+      "y": 22,
+      "icon": {
+        "id": "soulshardstow:BlockCage"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:hqmInvalidItem"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1586522c-432f-4ee2-8900-adaef36aa060",
+      "name": "Decor!",
+      "description": "Simply Magic offers many options for base building and decoration! The following mods are included: DecoCraft, ArchitectureCraft, Chisel/Chisel and Bits, Platforms. and WallpaperCraft!",
+      "x": 22,
+      "y": 44,
+      "icon": {
+        "id": "chisel:chisel_diamond"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
