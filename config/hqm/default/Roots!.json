@@ -63,6 +63,7 @@
     {
       "uuid": "ffba551f-7638-4816-b914-ef431c709750",
       "name": "Living tools",
+      "description": "These tools are created from wooden ones. They are about as fast as iron and they auto-repair.",
       "x": 21,
       "y": 148,
       "icon": {
@@ -70,6 +71,39 @@
       },
       "prerequisites": [
         "4f2bd319-8554-4953-9d83-56de8e82d5cf"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Living Tools",
+          "items": [
+            {
+              "item": {
+                "id": "roots:livingPickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingAxe"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingSword"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingHoe"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingShovel"
+              }
+            }
+          ]
+        }
       ],
       "commandrewards": []
     },
@@ -220,12 +254,12 @@
       "name": "Spellweaver Lance",
       "description": "The melee alternative to the projectile staff is the spellweaver lance. It will cause a spell effect a few seconds are hitting.",
       "x": 168,
-      "y": 147,
+      "y": 117,
       "icon": {
         "id": "roots:spellweaverLance"
       },
       "prerequisites": [
-        "0926d1ba-59cc-4e94-82de-ce0a43b72fd9"
+        "3e5ef1bc-2d1c-4a76-b766-77dc61953a12"
       ],
       "tasks": [
         {
@@ -385,6 +419,9 @@
       "description": "You can use a recharging ritual to charge the uses on your spells. This avoids loosing the spells and having to recraft them. You will need a lesser sprite near for this ritual",
       "x": 108,
       "y": 15,
+      "icon": {
+        "id": "roots:crystalStaff"
+      },
       "prerequisites": [
         "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3"
       ],
@@ -416,6 +453,34 @@
               "mob": "roots.greaterSprite",
               "kills": 1,
               "exact": false
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "998740a3-a75c-41be-a85b-6e47f08cd703",
+      "name": "Run Barry",
+      "description": "With the pixie stone oyu can mimic the sprite dash",
+      "x": 162,
+      "y": 47,
+      "icon": {
+        "id": "roots:pixieStone"
+      },
+      "prerequisites": [
+        "5ded2ba7-5c62-46f2-93af-b5bfb83532e2"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "pixie stone",
+          "longDescription": "when used this will quickly drain your terra",
+          "items": [
+            {
+              "item": {
+                "id": "roots:pixieStone"
+              }
             }
           ]
         }
@@ -479,6 +544,31 @@
       "commandrewards": []
     },
     {
+      "uuid": "27ccecf3-9ccb-4878-9cdb-460bf91b6662",
+      "name": "Evade Death",
+      "description": "Now that you have killed the guardian of the sprites you can now craft an item to make you master of death (well maybe friend of death)",
+      "x": 165,
+      "y": 16,
+      "icon": {
+        "id": "roots:ancientHourglass"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ancient Hourglass",
+          "longDescription": "This hourglass will save you from death but will be used in the process",
+          "items": [
+            {
+              "item": {
+                "id": "roots:ancientHourglass"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "d7624bbd-2b1c-4598-83cc-95f67cf1e136",
       "name": "Mods add books now",
       "description": "Now with this modpack was first concieved it was to solve a problem, magic mods don\u0027t tell you how to get started. Well now most mods have documentation and now you get the one for roots.",
@@ -516,8 +606,7 @@
         "id": "roots:spriteIcon"
       },
       "prerequisites": [
-        "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3",
-        "3e5ef1bc-2d1c-4a76-b766-77dc61953a12"
+        "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3"
       ],
       "tasks": [
         {
@@ -770,6 +859,7 @@
     {
       "uuid": "a7141f4d-8cea-46da-94e9-0cfa96aa7385",
       "name": "Wildwood",
+      "description": "WildWood is a nice little decorative block. It is obtained by a ritual. It will change logs within a 3x3",
       "x": 48,
       "y": 146,
       "icon": {
@@ -777,6 +867,19 @@
       },
       "prerequisites": [
         "9d679895-7dee-4f7c-851b-f344dc541f7c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Wildwood",
+          "items": [
+            {
+              "item": {
+                "id": "roots:logWildwood"
+              }
+            }
+          ]
+        }
       ],
       "commandrewards": []
     },
