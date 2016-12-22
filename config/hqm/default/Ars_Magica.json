@@ -1,6 +1,6 @@
 {
   "name": "Ars Magica",
-  "description": "In this section you will find out about the world of Ars Magica. Ars Magica allows you to create your own spells along with obtaining some great loot.",
+  "description": "In this section you will find out about the world of Ars Magica. Ars Magica allows you to create your own spells along with obtaining some great loot. Authored by Bluedog444",
   "quests": [
     {
       "uuid": "4d5c6d4d-b0fb-4275-8e8b-bf7f40fc8b40",
@@ -79,8 +79,7 @@
         "id": "arsmagica2:black_aurem"
       },
       "prerequisites": [
-        "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
-        "117e6c78-b1fb-4dcd-8623-631a8d4cf711"
+        "bb56ba4a-1480-4bc9-ab35-6a679c687e18"
       ],
       "tasks": [
         {
@@ -138,8 +137,7 @@
         "id": "arsmagica2:celestial_prism"
       },
       "prerequisites": [
-        "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
-        "117e6c78-b1fb-4dcd-8623-631a8d4cf711"
+        "bb56ba4a-1480-4bc9-ab35-6a679c687e18"
       ],
       "tasks": [
         {

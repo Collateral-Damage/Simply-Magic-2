@@ -1,6 +1,6 @@
 {
   "name": "Introduction And Misc",
-  "description": "Welcome to Simply Magic 2! This pack is currently in development. Cheers! - BaileyH, Brizzle",
+  "description": "Welcome to Simply Magic 2! This pack is currently in development. Cheers! - BaileyH, Brizzle, Bluedog444",
   "quests": [
     {
       "uuid": "7256d5a5-f159-485d-9623-99ad30bd79a2",
@@ -30,6 +30,7 @@
     {
       "uuid": "cb3a6f4d-9738-4a76-9870-73919133fc27",
       "name": "Script Changes",
+      "description": "You will quickly find that your skill with minecraft armors and tools is not up to par. Material above iron has been heavily nerfed in favor of mod use and early game challenge. Good luck!",
       "x": 23,
       "y": 15,
       "icon": {
