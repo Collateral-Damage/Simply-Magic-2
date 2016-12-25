@@ -4,7 +4,7 @@
     {
       "uuid": "994ced21-62f7-4160-a73a-a41f83b5ec9a",
       "name": "DIY Grass",
-      "description": "There a loads of little life improving little things this mod adds, you can grow grass without needing to move the block with silk touch",
+      "description": "Growth Powder may be used to grow grass on dirt blocks without the use of silk touch.",
       "x": 76,
       "y": 84,
       "icon": {
@@ -17,7 +17,7 @@
         {
           "type": "CRAFT",
           "description": "Growth Powder",
-          "longDescription": "This can be used on dirt to grow grass",
+          "longDescription": "Neat!",
           "items": [
             {
               "item": {
@@ -45,7 +45,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "description": "crystal staff",
+          "description": "Crystal Staff",
           "longDescription": "Adding spells to this staff required a special ritual. In addition to the crystal staff and the verdant sprig you will need to burn the spell powder of the spells you want on the staff.",
           "items": [
             {
@@ -64,8 +64,8 @@
       "uuid": "ffba551f-7638-4816-b914-ef431c709750",
       "name": "Living tools",
       "description": "These tools are created from wooden ones. They are about as fast as iron and they auto-repair.",
-      "x": 21,
-      "y": 148,
+      "x": 15,
+      "y": 144,
       "icon": {
         "id": "roots:livingSword"
       },
@@ -136,79 +136,9 @@
       "commandrewards": []
     },
     {
-      "uuid": "59ce0a70-5db6-40e6-9ecf-adac59ee096c",
-      "name": "Armor",
-      "description": "Roots adds its own armor too. OPTIONS. There is a set of robes and armor",
-      "x": 106,
-      "y": 147,
-      "icon": {
-        "id": "roots:druidRobesChest"
-      },
-      "prerequisites": [
-        "0926d1ba-59cc-4e94-82de-ce0a43b72fd9"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Your robes",
-          "longDescription": "Robes provide a little protection but the main selling point is auto-repair faster terra regeneration and when wearing a full set your spells are more efficient.",
-          "items": [
-            {
-              "item": {
-                "id": "roots:druidRobesHead"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:druidRobesChest"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:druidRobesLegs"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:druidRobesBoots"
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "description": "Your Armor *click click*",
-          "longDescription": "This armor provided more protection then the robes but doesn\u0027t provide the terra regen increase and spell efficiency. They do will auto-repair.",
-          "items": [
-            {
-              "item": {
-                "id": "roots:druidArmorHead"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:druidArmorChest"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:druidArmorLegs"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:druidArmorBoots"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "5ded2ba7-5c62-46f2-93af-b5bfb83532e2",
       "name": "Sprite Guardian",
-      "description": "Now its time for the big fish the sprite guardian. he drops some serious things.",
+      "description": "The Sprite Guardian is the final sprite. His drops will be useful for endgame rituals and spells.",
       "x": 137,
       "y": 15,
       "icon": {
@@ -279,7 +209,7 @@
     {
       "uuid": "8164095d-f0b3-4fbb-bce1-f16fdd15e48a",
       "name": "Punching Grass",
-      "description": "In this mod you get started like a lot of magic/nature mods, punch tall grass",
+      "description": "In order to get started with Roots, you will require an Old Root. Start punching grass!",
       "x": 24,
       "y": 17,
       "icon": {
@@ -297,6 +227,12 @@
               }
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "roots:oldRoot",
+          "amount": 3
         }
       ],
       "commandrewards": []
@@ -367,53 +303,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "424d5554-f055-44cb-ad09-bd403654ce24",
-      "name": "Rare resources",
-      "description": "There are a few resources that you will need a handful of while you play around with roots. Some of these you will need to progress abit further into minecraft so don\u0027t rush this one.",
-      "x": 23,
-      "y": 83,
-      "icon": {
-        "id": "roots:infernalStem"
-      },
-      "prerequisites": [
-        "d7624bbd-2b1c-4598-83cc-95f67cf1e136"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Resources",
-          "longDescription": "Verdant Sprigs are a 1/30 chance from harvesting crops, Infernal bulbs are 1/20 from harvesting netherwart, and Dragon\u0027s eyes are 1/10 chance from chorus flowers, old roots are from the tall grass at a chance of 1/40",
-          "items": [
-            {
-              "item": {
-                "id": "roots:verdantSprig"
-              },
-              "required": 5
-            },
-            {
-              "item": {
-                "id": "roots:infernalStem"
-              },
-              "required": 5
-            },
-            {
-              "item": {
-                "id": "roots:dragonsEye"
-              },
-              "required": 5
-            },
-            {
-              "item": {
-                "id": "roots:oldRoot"
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "03631b20-707f-4e91-8a93-ded6333271e4",
       "name": "Recharging staff",
       "description": "You can use a recharging ritual to charge the uses on your spells. This avoids loosing the spells and having to recraft them. You will need a lesser sprite near for this ritual",
@@ -445,7 +334,7 @@
           "longDescription": "this greater sprite need 8 different flowers in braziers to summon",
           "mobs": [
             {
-              "name": "New",
+              "name": "Greater Sprite",
               "icon": {
                 "id": "minecraft:spawn_egg",
                 "damage": 90
@@ -462,7 +351,7 @@
     {
       "uuid": "998740a3-a75c-41be-a85b-6e47f08cd703",
       "name": "Run Barry",
-      "description": "With the pixie stone oyu can mimic the sprite dash",
+      "description": "You are now able to mimic the pixie dash with this stone.",
       "x": 162,
       "y": 47,
       "icon": {
@@ -474,40 +363,12 @@
       "tasks": [
         {
           "type": "DETECT",
-          "description": "pixie stone",
-          "longDescription": "when used this will quickly drain your terra",
+          "description": "Pixie Stone",
+          "longDescription": "This item consumes Terra.",
           "items": [
             {
               "item": {
                 "id": "roots:pixieStone"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "dfa2bdeb-30cc-45f0-948a-421f5763e735",
-      "name": "Root stew",
-      "description": "Instead of eating just the roots you can combine them with a bowl and wheat for a little better return.",
-      "x": 23,
-      "y": 115,
-      "icon": {
-        "id": "roots:rootyStew"
-      },
-      "prerequisites": [
-        "424d5554-f055-44cb-ad09-bd403654ce24"
-      ],
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Rooty stew",
-          "longDescription": "nothing to see here just make the stew",
-          "items": [
-            {
-              "item": {
-                "id": "roots:rootyStew"
               }
             }
           ]
@@ -531,7 +392,7 @@
         {
           "type": "CRAFT",
           "description": "font for spirit",
-          "longDescription": "To make this font work we need 2 things, water and plants. Water nearby determines capacity and plants determine the rate. once working it will hold sprites close by",
+          "longDescription": "To make this font work we need 2 things, water and plants. Water nearby determines capacity and plants determine the rate. Once working it will hold sprites close by.",
           "items": [
             {
               "item": {
@@ -546,17 +407,20 @@
     {
       "uuid": "27ccecf3-9ccb-4878-9cdb-460bf91b6662",
       "name": "Evade Death",
-      "description": "Now that you have killed the guardian of the sprites you can now craft an item to make you master of death (well maybe friend of death)",
+      "description": "You are now able to craft the Ancient Hourglass and can evade death a single time.",
       "x": 165,
       "y": 16,
       "icon": {
         "id": "roots:ancientHourglass"
       },
+      "prerequisites": [
+        "5ded2ba7-5c62-46f2-93af-b5bfb83532e2"
+      ],
       "tasks": [
         {
           "type": "DETECT",
           "description": "Ancient Hourglass",
-          "longDescription": "This hourglass will save you from death but will be used in the process",
+          "longDescription": "This hourglass will save you from death but will be used in the process.",
           "items": [
             {
               "item": {
@@ -570,8 +434,8 @@
     },
     {
       "uuid": "d7624bbd-2b1c-4598-83cc-95f67cf1e136",
-      "name": "Mods add books now",
-      "description": "Now with this modpack was first concieved it was to solve a problem, magic mods don\u0027t tell you how to get started. Well now most mods have documentation and now you get the one for roots.",
+      "name": "Roots Documentation",
+      "description": "In-depth information on Roots and lore can be found inside the tablet. This quest line will follow along and accompany the book\u0027s instruction.",
       "x": 24,
       "y": 50,
       "icon": {
@@ -584,7 +448,7 @@
         {
           "type": "CRAFT",
           "description": "Runic Tablet",
-          "longDescription": "So are the first two quests taught you how to get the in game documentation for Roots. Now you really don\u0027t need me to hold your hand but if you feel like it continue the quests.",
+          "longDescription": "Escape will back out of pages, arrows at the bottom move to new section.",
           "items": [
             {
               "item": {
@@ -614,7 +478,7 @@
           "longDescription": "the common sprite needs 6 different flowers burning in brazier to summon",
           "mobs": [
             {
-              "name": "New",
+              "name": "Sprite",
               "icon": {
                 "id": "minecraft:spawn_egg",
                 "damage": 90
@@ -631,7 +495,7 @@
     {
       "uuid": "0b234534-69fd-4172-bd99-17b9589b8990",
       "name": "SpellCraft",
-      "description": "Inorder to keep this book a little neat I will lead you to making your first staff but which you make is up to you.",
+      "description": "You may make any staff you wish. Consult the boxes on the right for more information.",
       "x": 79,
       "y": 29,
       "icon": {
@@ -687,7 +551,7 @@
     {
       "uuid": "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7",
       "name": "Mortar and Pestle",
-      "description": "The mortar and pestle is one of the main tools to start you in spellcrafting but the pestle is also using in some crafting recipes (not used up)",
+      "description": "The mortar and pestle is one of the main tools to start you in spellcrafting. The Mortar and Pestle will not be consumed during crafting.",
       "x": 59,
       "y": 51,
       "icon": {
@@ -720,14 +584,13 @@
     {
       "uuid": "e60a9afa-7f58-4a28-996a-01a0ab6bd191",
       "name": "Little Heal",
-      "description": "Using some of the Verdant sprigs you can make a little healing salve. Pro to this is they stack",
+      "description": "Using some of the Verdant sprigs you can make healing poultice.",
       "x": 50,
       "y": 83,
       "icon": {
         "id": "roots:healingPoultice"
       },
       "prerequisites": [
-        "424d5554-f055-44cb-ad09-bd403654ce24",
         "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7"
       ],
       "tasks": [
@@ -750,13 +613,13 @@
       "uuid": "4f2bd319-8554-4953-9d83-56de8e82d5cf",
       "name": "Rituals",
       "description": "Now you can start your entrance into rituals. You will need a few basic blocks to get started",
-      "x": 51,
-      "y": 115,
+      "x": 25,
+      "y": 114,
       "icon": {
         "id": "roots:altar"
       },
       "prerequisites": [
-        "424d5554-f055-44cb-ad09-bd403654ce24"
+        "d7624bbd-2b1c-4598-83cc-95f67cf1e136"
       ],
       "tasks": [
         {
@@ -814,7 +677,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "description": "pew pew",
+          "description": "Projectiles",
           "items": [
             {
               "item": {
@@ -860,8 +723,8 @@
       "uuid": "a7141f4d-8cea-46da-94e9-0cfa96aa7385",
       "name": "Wildwood",
       "description": "WildWood is a nice little decorative block. It is obtained by a ritual. It will change logs within a 3x3",
-      "x": 48,
-      "y": 146,
+      "x": 46,
+      "y": 143,
       "icon": {
         "id": "roots:logWildwood"
       },
@@ -977,7 +840,7 @@
           "type": "KILL",
           "mobs": [
             {
-              "name": "New",
+              "name": "Spriteling",
               "icon": {
                 "id": "minecraft:spawn_egg",
                 "damage": 90
