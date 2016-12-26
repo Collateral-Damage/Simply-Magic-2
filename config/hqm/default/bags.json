@@ -1,1 +1,604 @@
-[]
+[
+  {
+    "name": "Basic Tier",
+    "colour": "BLACK",
+    "weights": [
+      80,
+      10,
+      5,
+      3,
+      2
+    ],
+    "groups": [
+      {
+        "id": "db564a5e-2fbc-42eb-9520-541c8d805ff6",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:stone",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:glass",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:gravel",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:sand",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "ae235836-557b-430c-b7eb-53dd0cd949ba",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:sapling"
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 1
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 2
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 3
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 4
+          },
+          {
+            "id": "minecraft:sapling",
+            "damage": 5
+          }
+        ]
+      },
+      {
+        "id": "4ad01498-65ee-4c37-982e-793cc91e59aa",
+        "limit": 2,
+        "items": [
+          {
+            "id": "arsmagica2:infinity_orb"
+          }
+        ]
+      },
+      {
+        "id": "ebe8931d-97cc-41a8-ad77-58ad1eeed73e",
+        "name": "Plains Crystal!",
+        "limit": 1,
+        "items": [
+          {
+            "id": "terraincrystals:terrainCrystalPlains"
+          }
+        ]
+      },
+      {
+        "id": "74ad93ed-28d9-4863-b721-5a8e46f35e11",
+        "limit": 2,
+        "items": [
+          {
+            "id": "minecraft:lapis_block",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "id": "0aaf5d8a-8cb3-4bc3-993d-e460c7df1a28",
+        "limit": 2,
+        "items": [
+          {
+            "id": "minecraft:paper",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:paper",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "19b07c24-b525-4320-9886-883027aa6220",
+        "limit": 0,
+        "items": [
+          {
+            "id": "minecraft:wool",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "5560a8ab-4479-406d-ab99-986ffd3b4bdf",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:stained_glass",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:stained_glass",
+            "damage": 9,
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "573acfa4-237e-4731-86f1-ae6d8189cc15",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:stained_glass",
+            "damage": 10,
+            "amount": 64
+          },
+          {
+            "id": "minecraft:stained_glass",
+            "damage": 14,
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "6c2bb2e8-5e0a-4e49-8209-82a3f0f95967",
+        "name": "Dusts!",
+        "limit": 2,
+        "items": [
+          {
+            "id": "minecraft:redstone",
+            "amount": 20
+          },
+          {
+            "id": "arsmagica2:item_ore",
+            "amount": 20
+          },
+          {
+            "id": "minecraft:glowstone_dust",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "id": "f7122858-b718-46c8-b5d1-df120bd19114",
+        "limit": 1,
+        "items": [
+          {
+            "id": "terraincrystals:terrainCrystalDesert"
+          }
+        ]
+      },
+      {
+        "id": "e692dd7e-bdbc-4224-a0be-54403eddf5f7",
+        "limit": 1,
+        "items": [
+          {
+            "id": "terraincrystals:terrainCrystalSwamp"
+          }
+        ]
+      },
+      {
+        "id": "5096d844-6cca-4ae0-8822-e53451919a4f",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:cooked_beef",
+            "amount": 30
+          },
+          {
+            "id": "minecraft:cooked_chicken",
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "id": "441e9761-0fd3-4cc0-99d8-e6184bf95b75",
+        "limit": 2,
+        "items": [
+          {
+            "id": "arsmagica2:mana_potion_bundle",
+            "damage": 3
+          },
+          {
+            "id": "arsmagica2:mana_potion_bundle",
+            "damage": 3
+          }
+        ]
+      },
+      {
+        "id": "85c8c79a-5369-40d4-b47a-a3a1f7c75af9",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:manaResource",
+            "amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Good Tier",
+    "colour": "GREEN",
+    "weights": [
+      5,
+      80,
+      7,
+      5,
+      2
+    ],
+    "groups": [
+      {
+        "id": "6cd8e775-6415-42d3-b442-011a2df0432c",
+        "limit": 0,
+        "items": [
+          {
+            "id": "arsmagica2:mana_potion_bundle",
+            "damage": 259
+          },
+          {
+            "id": "arsmagica2:mana_potion_bundle",
+            "damage": 259
+          }
+        ]
+      },
+      {
+        "id": "bffb307a-dcc8-4348-939c-4aa92c6c48bc",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:bookshelf",
+            "amount": 24
+          },
+          {
+            "id": "minecraft:enchanting_table"
+          }
+        ]
+      },
+      {
+        "id": "5d2a688d-0632-48e1-a69b-9c8e1b25e860",
+        "limit": 1,
+        "items": [
+          {
+            "id": "terraincrystals:terrainCrystalMesa"
+          }
+        ]
+      },
+      {
+        "id": "bc997395-b910-46c8-bf0e-96e9cd5268f3",
+        "limit": 2,
+        "items": [
+          {
+            "id": "arsmagica2:infinity_orb",
+            "damage": 1
+          }
+        ]
+      },
+      {
+        "id": "d71012be-1403-4324-86aa-b882c344af69",
+        "limit": 0,
+        "items": [
+          {
+            "id": "arsmagica2:infinity_orb"
+          }
+        ]
+      },
+      {
+        "id": "eaad0262-647c-47b9-b9db-0570814aa7cc",
+        "limit": 0,
+        "items": [
+          {
+            "id": "hardcorequesting:bags",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "id": "084cb2e6-1889-419b-a5ca-1dac30773c58",
+        "limit": 1,
+        "items": [
+          {
+            "id": "chisel:chisel_hitech"
+          },
+          {
+            "id": "architecturecraft:chisel"
+          },
+          {
+            "id": "architecturecraft:sawbench"
+          },
+          {
+            "id": "architecturecraft:hammer"
+          }
+        ]
+      },
+      {
+        "id": "dd3ade9b-b341-4f2a-a428-97122523f1b4",
+        "limit": 2,
+        "items": [
+          {
+            "id": "arsmagica2:ore",
+            "amount": 64
+          },
+          {
+            "id": "arsmagica2:vinteum_torch",
+            "amount": 64
+          },
+          {
+            "id": "minecraft:snow",
+            "amount": 4
+          },
+          {
+            "id": "randomthings:pitcherPlant"
+          }
+        ]
+      },
+      {
+        "id": "247de82e-77a8-4584-ac55-fe80fd9d1cd4",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:sticky_piston",
+            "amount": 10
+          },
+          {
+            "id": "minecraft:piston",
+            "amount": 10
+          },
+          {
+            "id": "minecraft:redstone_block",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "id": "42b26520-9f57-4f55-b843-cb2083ef3747",
+        "limit": 0,
+        "items": [
+          {
+            "id": "bloodmagic:BlockBloodRune",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "id": "0a391deb-2b71-4e91-a0c9-b7ab11df3e88",
+        "limit": 1,
+        "items": [
+          {
+            "id": "terraincrystals:terrainCrystalSwamp"
+          },
+          {
+            "id": "terraincrystals:terrainCrystalSavanna"
+          }
+        ]
+      },
+      {
+        "id": "5e251bce-7ccb-4e39-942a-69b262d69de8",
+        "limit": 0,
+        "items": [
+          {
+            "id": "hardcorequesting:bags",
+            "damage": 1
+          }
+        ]
+      },
+      {
+        "id": "dd622717-ef46-43af-9806-0b4290ead7df",
+        "limit": 1,
+        "items": [
+          {
+            "id": "chiselsandbits:chisel_diamond"
+          },
+          {
+            "id": "chiselsandbits:bit_bag",
+            "nbt": "{contents:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,]}"
+          }
+        ]
+      },
+      {
+        "id": "c6da4423-fcf3-4c1d-a369-2af6687fd9e4",
+        "limit": 0,
+        "items": [
+          {
+            "id": "botania:storage"
+          },
+          {
+            "id": "botania:manaResource",
+            "damage": 1
+          },
+          {
+            "id": "botania:manaResource",
+            "damage": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Greater Tier",
+    "colour": "BLUE",
+    "weights": [
+      0,
+      10,
+      80,
+      5,
+      4
+    ],
+    "groups": [
+      {
+        "id": "f0e0257d-4271-462c-b850-5a3a9d2fe86a",
+        "limit": 2,
+        "items": [
+          {
+            "id": "botania:manaResource",
+            "damage": 2,
+            "amount": 5
+          },
+          {
+            "id": "botania:manaResource",
+            "damage": 1,
+            "amount": 5
+          },
+          {
+            "id": "botania:manaResource",
+            "damage": 7,
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "id": "fa120741-a620-4c08-b2dd-a114e6be24c9",
+        "limit": 2,
+        "items": [
+          {
+            "id": "bloodmagic:BlockRitualStone",
+            "amount": 32
+          },
+          {
+            "id": "bloodmagic:BlockBloodRune",
+            "amount": 32
+          }
+        ]
+      },
+      {
+        "id": "1d813c84-4482-4c66-8b41-fce38e304051",
+        "limit": 1,
+        "items": [
+          {
+            "id": "terraincrystals:terrainCrystalNether"
+          },
+          {
+            "id": "terraincrystals:terrainCrystalMesa"
+          },
+          {
+            "id": "terraincrystals:terrainCrystalEnd"
+          }
+        ]
+      },
+      {
+        "id": "473f76f9-d33f-43f4-aef0-cc0474d86c5c",
+        "limit": 1,
+        "items": [
+          {
+            "id": "terraincrystals:terrainCrystalMushroom_Island"
+          }
+        ]
+      },
+      {
+        "id": "ce4efa65-85f9-4f7e-83a0-2600a8148af6",
+        "limit": 1,
+        "items": [
+          {
+            "id": "arsmagica2:desert_nova",
+            "amount": 64
+          },
+          {
+            "id": "arsmagica2:cerublossom",
+            "amount": 64
+          },
+          {
+            "id": "arsmagica2:wakebloom",
+            "amount": 64
+          },
+          {
+            "id": "arsmagica2:aum",
+            "amount": 64
+          },
+          {
+            "id": "arsmagica2:tarma_root",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "76fceeaf-d9ca-4914-b21c-a52c6a1c5875",
+        "limit": 0,
+        "items": [
+          {
+            "id": "arsmagica2:mana_potion_bundle",
+            "damage": 771,
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "id": "e12604f0-9b1d-45ad-8788-510bb5822431",
+        "limit": 0,
+        "items": [
+          {
+            "id": "arsmagica2:infinity_orb",
+            "damage": 1
+          }
+        ]
+      },
+      {
+        "id": "6d9ddb9e-ff62-40ac-b29e-a21a39fb77e6",
+        "limit": 1,
+        "items": [
+          {
+            "id": "arsmagica2:infinity_orb",
+            "damage": 2,
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "id": "1b25a912-59e0-4160-90ec-ebeea28b6480",
+        "limit": 1,
+        "items": [
+          {
+            "id": "minecraft:experience_bottle",
+            "amount": 64
+          }
+        ]
+      },
+      {
+        "id": "e6c6defa-d406-4070-b966-4e6490254705",
+        "limit": 1,
+        "items": [
+          {
+            "id": "randomthings:grassSeeds",
+            "damage": 1
+          },
+          {
+            "id": "randomthings:grassSeeds",
+            "damage": 2
+          },
+          {
+            "id": "randomthings:grassSeeds",
+            "damage": 3
+          },
+          {
+            "id": "randomthings:grassSeeds",
+            "damage": 4
+          },
+          {
+            "id": "randomthings:grassSeeds",
+            "damage": 5
+          },
+          {
+            "id": "randomthings:grassSeeds",
+            "damage": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "New Tier",
+    "colour": "BLACK",
+    "weights": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "groups": []
+  }
+]

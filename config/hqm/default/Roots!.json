@@ -1,211 +1,7 @@
 {
   "name": "Roots!",
+  "description": "Learn about the mod Roots! Authored by BrizzleMFD",
   "quests": [
-    {
-      "uuid": "994ced21-62f7-4160-a73a-a41f83b5ec9a",
-      "name": "DIY Grass",
-      "description": "Growth Powder may be used to grow grass on dirt blocks without the use of silk touch.",
-      "x": 76,
-      "y": 84,
-      "icon": {
-        "id": "roots:growthSalve"
-      },
-      "prerequisites": [
-        "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7"
-      ],
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Growth Powder",
-          "longDescription": "Neat!",
-          "items": [
-            {
-              "item": {
-                "id": "roots:growthSalve"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f79ad2b5-8b46-4b90-b743-5074cd8cbe42",
-      "name": "Crystal Staff",
-      "description": "This staff allows you to hold 4 spells in your staff (switch by shift right-click) and extends the number of uses.",
-      "x": 78,
-      "y": 146,
-      "icon": {
-        "id": "roots:crystalStaff",
-        "nbt": "{uses2:257,uses3:0,uses1:257,potency4:0.0d,uses4:0,size3:0.0d,size4:0.0d,size1:0.0d,size2:0.0d,selected:1,maxUses4:0,maxUses1:257,maxUses3:0,maxUses2:257,effect1:\"whitetulip\",numSlots:4,potency1:0.0d,effect2:\"poppy\",potency2:0.0d,effect3:\"\",potency3:0.0d,effect4:\"\",efficiency2:0.0d,efficiency1:0.0d,efficiency4:0.0d,efficiency3:0.0d}"
-      },
-      "prerequisites": [
-        "9d679895-7dee-4f7c-851b-f344dc541f7c"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Crystal Staff",
-          "longDescription": "Adding spells to this staff required a special ritual. In addition to the crystal staff and the verdant sprig you will need to burn the spell powder of the spells you want on the staff.",
-          "items": [
-            {
-              "item": {
-                "id": "roots:crystalStaff",
-                "nbt": "{uses2:257,uses3:0,uses1:257,potency4:0.0d,uses4:0,size3:0.0d,size4:0.0d,size1:0.0d,size2:0.0d,selected:1,maxUses4:0,maxUses1:257,maxUses3:0,maxUses2:257,effect1:\"whitetulip\",numSlots:4,potency1:0.0d,effect2:\"poppy\",potency2:0.0d,effect3:\"\",potency3:0.0d,effect4:\"\",efficiency2:0.0d,efficiency1:0.0d,efficiency4:0.0d,efficiency3:0.0d}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ffba551f-7638-4816-b914-ef431c709750",
-      "name": "Living tools",
-      "description": "These tools are created from wooden ones. They are about as fast as iron and they auto-repair.",
-      "x": 15,
-      "y": 144,
-      "icon": {
-        "id": "roots:livingSword"
-      },
-      "prerequisites": [
-        "4f2bd319-8554-4953-9d83-56de8e82d5cf"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Living Tools",
-          "items": [
-            {
-              "item": {
-                "id": "roots:livingPickaxe"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:livingAxe"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:livingSword"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:livingHoe"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:livingShovel"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "9d679895-7dee-4f7c-851b-f344dc541f7c",
-      "name": "Mundane Standing Stones",
-      "description": "The next tier in rituals is going to require 8 mundane standing stones. these are aranged how you see in the Runic Tablet (3 blocks from the casting altar in a circle around it)",
-      "x": 78,
-      "y": 115,
-      "icon": {
-        "id": "roots:standingStoneT1"
-      },
-      "prerequisites": [
-        "4f2bd319-8554-4953-9d83-56de8e82d5cf"
-      ],
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Mundane standing stones",
-          "items": [
-            {
-              "item": {
-                "id": "roots:standingStoneT1"
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5ded2ba7-5c62-46f2-93af-b5bfb83532e2",
-      "name": "Sprite Guardian",
-      "description": "The Sprite Guardian is the final sprite. His drops will be useful for endgame rituals and spells.",
-      "x": 137,
-      "y": 15,
-      "icon": {
-        "id": "minecraft:spawn_egg",
-        "nbt": "{EntityTag:{id:\"roots.spriteGuardian\"}}"
-      },
-      "prerequisites": [
-        "1bed26bb-51c9-4dc2-abab-b5d033393a0b"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Charm",
-          "longDescription": "These charms are end game. They are used in place of spell dust in an infuser or the spell binding ritual.",
-          "items": [
-            {
-              "item": {
-                "id": "roots:charmRestoration"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:charmEvocation"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:charmConjuration"
-              }
-            },
-            {
-              "item": {
-                "id": "roots:charmIllusion"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d290862b-820d-4282-9aa2-7a0c31646718",
-      "name": "Spellweaver Lance",
-      "description": "The melee alternative to the projectile staff is the spellweaver lance. It will cause a spell effect a few seconds are hitting.",
-      "x": 168,
-      "y": 117,
-      "icon": {
-        "id": "roots:spellweaverLance"
-      },
-      "prerequisites": [
-        "3e5ef1bc-2d1c-4a76-b766-77dc61953a12"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Lance",
-          "items": [
-            {
-              "item": {
-                "id": "roots:spellweaverLance"
-              }
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
     {
       "uuid": "8164095d-f0b3-4fbb-bce1-f16fdd15e48a",
       "name": "Punching Grass",
@@ -377,6 +173,65 @@
       "commandrewards": []
     },
     {
+      "uuid": "994ced21-62f7-4160-a73a-a41f83b5ec9a",
+      "name": "DIY Grass",
+      "description": "Growth Powder may be used to grow grass on dirt blocks without the use of silk touch.",
+      "x": 76,
+      "y": 84,
+      "icon": {
+        "id": "roots:growthSalve"
+      },
+      "prerequisites": [
+        "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Growth Powder",
+          "longDescription": "Neat!",
+          "items": [
+            {
+              "item": {
+                "id": "roots:growthSalve"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f79ad2b5-8b46-4b90-b743-5074cd8cbe42",
+      "name": "Crystal Staff",
+      "description": "This staff allows you to hold 4 spells in your staff (switch by shift right-click) and extends the number of uses.",
+      "x": 78,
+      "y": 146,
+      "icon": {
+        "id": "roots:crystalStaff",
+        "nbt": "{uses2:257,uses3:0,uses1:257,potency4:0.0d,uses4:0,size3:0.0d,size4:0.0d,size1:0.0d,size2:0.0d,selected:1,maxUses4:0,maxUses1:257,maxUses3:0,maxUses2:257,effect1:\"whitetulip\",numSlots:4,potency1:0.0d,effect2:\"poppy\",potency2:0.0d,effect3:\"\",potency3:0.0d,effect4:\"\",efficiency2:0.0d,efficiency1:0.0d,efficiency4:0.0d,efficiency3:0.0d}"
+      },
+      "prerequisites": [
+        "9d679895-7dee-4f7c-851b-f344dc541f7c"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Crystal Staff",
+          "longDescription": "Adding spells to this staff required a special ritual. In addition to the crystal staff and the verdant sprig you will need to burn the spell powder of the spells you want on the staff.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:crystalStaff",
+                "nbt": "{uses2:257,uses3:0,uses1:257,potency4:0.0d,uses4:0,size3:0.0d,size4:0.0d,size1:0.0d,size2:0.0d,selected:1,maxUses4:0,maxUses1:257,maxUses3:0,maxUses2:257,effect1:\"whitetulip\",numSlots:4,potency1:0.0d,effect2:\"poppy\",potency2:0.0d,effect3:\"\",potency3:0.0d,effect4:\"\",efficiency2:0.0d,efficiency1:0.0d,efficiency4:0.0d,efficiency3:0.0d}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3",
       "name": "Spirit font",
       "description": "This object I highly recomended to help with the summoning a common and greater sprite. ",
@@ -426,6 +281,81 @@
               "item": {
                 "id": "roots:ancientHourglass"
               }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ffba551f-7638-4816-b914-ef431c709750",
+      "name": "Living tools",
+      "description": "These tools are created from wooden ones. They are about as fast as iron and they auto-repair.",
+      "x": 15,
+      "y": 144,
+      "icon": {
+        "id": "roots:livingSword"
+      },
+      "prerequisites": [
+        "4f2bd319-8554-4953-9d83-56de8e82d5cf"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Living Tools",
+          "items": [
+            {
+              "item": {
+                "id": "roots:livingPickaxe"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingAxe"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingSword"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingHoe"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:livingShovel"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9d679895-7dee-4f7c-851b-f344dc541f7c",
+      "name": "Mundane Standing Stones",
+      "description": "The next tier in rituals is going to require 8 mundane standing stones. these are aranged how you see in the Runic Tablet (3 blocks from the casting altar in a circle around it)",
+      "x": 78,
+      "y": 115,
+      "icon": {
+        "id": "roots:standingStoneT1"
+      },
+      "prerequisites": [
+        "4f2bd319-8554-4953-9d83-56de8e82d5cf"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Mundane standing stones",
+          "items": [
+            {
+              "item": {
+                "id": "roots:standingStoneT1"
+              },
+              "required": 8
             }
           ]
         }
@@ -542,6 +472,50 @@
                 "nbt": "{effect1:\"poppy\",numSlots:1,potency1:2.0d,uses1:97,maxUses1:97,size1:0.0d,efficiency1:0.0d,selected:1}"
               },
               "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5ded2ba7-5c62-46f2-93af-b5bfb83532e2",
+      "name": "Sprite Guardian",
+      "description": "The Sprite Guardian is the final sprite. His drops will be useful for endgame rituals and spells.",
+      "x": 137,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:spawn_egg",
+        "nbt": "{EntityTag:{id:\"roots.spriteGuardian\"}}"
+      },
+      "prerequisites": [
+        "1bed26bb-51c9-4dc2-abab-b5d033393a0b"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Charm",
+          "longDescription": "These charms are end game. They are used in place of spell dust in an infuser or the spell binding ritual.",
+          "items": [
+            {
+              "item": {
+                "id": "roots:charmRestoration"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:charmEvocation"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:charmConjuration"
+              }
+            },
+            {
+              "item": {
+                "id": "roots:charmIllusion"
+              }
             }
           ]
         }
@@ -739,6 +713,33 @@
             {
               "item": {
                 "id": "roots:logWildwood"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d290862b-820d-4282-9aa2-7a0c31646718",
+      "name": "Spellweaver Lance",
+      "description": "The melee alternative to the projectile staff is the spellweaver lance. It will cause a spell effect a few seconds are hitting.",
+      "x": 168,
+      "y": 117,
+      "icon": {
+        "id": "roots:spellweaverLance"
+      },
+      "prerequisites": [
+        "3e5ef1bc-2d1c-4a76-b766-77dc61953a12"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Lance",
+          "items": [
+            {
+              "item": {
+                "id": "roots:spellweaverLance"
               }
             }
           ]

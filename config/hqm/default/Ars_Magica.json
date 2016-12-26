@@ -29,6 +29,9 @@
         {
           "id": "arsmagica2:mana_potion_bundle",
           "damage": 259
+        },
+        {
+          "id": "hardcorequesting:bags"
         }
       ],
       "commandrewards": []
@@ -288,6 +291,9 @@
         {
           "id": "arsmagica2:item_ore",
           "amount": 5
+        },
+        {
+          "id": "hardcorequesting:bags"
         }
       ],
       "commandrewards": []
@@ -320,6 +326,10 @@
         {
           "id": "arsmagica2:item_ore",
           "amount": 3
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
         }
       ],
       "commandrewards": []

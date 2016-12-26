@@ -5,6 +5,7 @@
     {
       "uuid": "7256d5a5-f159-485d-9623-99ad30bd79a2",
       "name": "Loot Bags",
+      "description": "Loot bags contain random items of variable use. Some groups of items may only be received once while others can be obtained infinitely. Enjoy!",
       "x": 54,
       "y": 15,
       "icon": {
@@ -23,6 +24,11 @@
               "precision": "FUZZY"
             }
           ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags"
         }
       ],
       "commandrewards": []
@@ -55,6 +61,7 @@
     {
       "uuid": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
       "name": "Waystones",
+      "description": "Waystones can be an excellent way of fast traveling in the world. They can be crafted and placed in the world. You may then bound a return scroll to the waystone and use it to teleport back to the stone.",
       "x": 57,
       "y": 73,
       "icon": {
@@ -66,8 +73,9 @@
           "items": [
             {
               "item": {
-                "id": "hardcorequesting:hqmInvalidItem"
-              }
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -101,6 +109,7 @@
     {
       "uuid": "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0",
       "name": "Reliquary",
+      "description": "Coming Soon!",
       "x": 55,
       "y": 45,
       "icon": {
@@ -113,8 +122,7 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:planks",
-                "damage": 2
+                "id": "hardcorequesting:hqmInvalidItem"
               },
               "precision": "FUZZY"
             }
@@ -126,6 +134,7 @@
     {
       "uuid": "917b3cd6-88c1-4fe0-9542-516067b27980",
       "name": "MineColonies",
+      "description": "Coming Soon!",
       "x": 188,
       "y": 23,
       "icon": {
@@ -148,6 +157,7 @@
     {
       "uuid": "49dd5e95-5dd4-4aa9-b249-1fb582ac2ec7",
       "name": "Soul Shards",
+      "description": "Getting started with soul shards will require an unbound soul shard. A Soul Shard can be created by placing a glowstone block in the world with quartz blocks adjacent to the glowstone and obsidian in the corners creating a 3x3 square. Clicking the glowstone block with a diamond will give you one unbound soul shard.",
       "x": 239,
       "y": 22,
       "icon": {
@@ -155,14 +165,35 @@
       },
       "tasks": [
         {
-          "type": "CONSUME",
+          "type": "DETECT",
+          "longDescription": "Your first kill with the shard in your inventory will bind it to that type of monster. Additional kills will continue to charge the shard until you reach different tiers of the shard.",
           "items": [
             {
               "item": {
-                "id": "hardcorequesting:hqmInvalidItem"
-              }
+                "id": "soulshardstow:ItemSoulShard",
+                "nbt": "{Tier:0,KillCount:0}"
+              },
+              "precision": "FUZZY"
             }
           ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "The soul cage can be given a bound shard and will spawn mobs at a rate given by the tier of the shard. More shards of the same type can be given to the cage to increase its tier.",
+          "items": [
+            {
+              "item": {
+                "id": "soulshardstow:BlockCage"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
         }
       ],
       "commandrewards": []
