@@ -1,0 +1,3839 @@
+[
+  {
+    "uuid": "ef335530-464c-4717-a202-d1987bff04dd",
+    "lives": 3,
+    "team": {
+      "id": -1,
+      "lifeSetting": "SHARE",
+      "rewardSetting": "ALL",
+      "players": [
+        {
+          "uuid": "ef335530-464c-4717-a202-d1987bff04dd",
+          "owner": true,
+          "bookOpen": false,
+          "inTeam": true
+        }
+      ],
+      "reputations": [],
+      "questDataList": [
+        {
+          "questId": "7256d5a5-f159-485d-9623-99ad30bd79a2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c1f635d2-35a7-4a12-ab05-51b442e3efa2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6700fe82-0772-46b1-8b10-ae20bcd548e5",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "34e5df4e-9ee5-4f7c-bff0-7807fe4a27dd",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "29c317cf-ed5c-4ca7-9c60-95bece4bd2b6",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "994ced21-62f7-4160-a73a-a41f83b5ec9a",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "f79ad2b5-8b46-4b90-b743-5074cd8cbe42",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "ffba551f-7638-4816-b914-ef431c709750",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b70ab6c0-117d-476b-8e42-7614e8a43dc1",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 8,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "9d679895-7dee-4f7c-851b-f344dc541f7c",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "cb3a6f4d-9738-4a76-9870-73919133fc27",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3afe3b6b-2e00-4eda-8e90-fdabf7d117ca",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 10,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "5ded2ba7-5c62-46f2-93af-b5bfb83532e2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "917b3cd6-88c1-4fe0-9542-516067b27980",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "117e6c78-b1fb-4dcd-8623-631a8d4cf711",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d290862b-820d-4282-9aa2-7a0c31646718",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "8164095d-f0b3-4fbb-bce1-f16fdd15e48a",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4d5c6d4d-b0fb-4275-8e8b-bf7f40fc8b40",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e8ba8014-f27c-46d7-b1af-4ef6e11f0b32",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 2,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 6,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "03631b20-707f-4e91-8a93-ded6333271e4",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 0,
+            "tasks": []
+          }
+        },
+        {
+          "questId": "d9527f4c-947d-411f-8dde-8216ccae9734",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1bed26bb-51c9-4dc2-abab-b5d033393a0b",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "MOB",
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "998740a3-a75c-41be-a85b-6e47f08cd703",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "2d91cdf6-665f-4643-a596-6b8b192fa519",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "49dd5e95-5dd4-4aa9-b249-1fb582ac2ec7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 2,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1586522c-432f-4ee2-8900-adaef36aa060",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3220a889-81c7-4cc9-a014-3e387fa2f539",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "27ccecf3-9ccb-4878-9cdb-460bf91b6662",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "2b9ff618-a1d4-4939-8a7c-ebb08851a596",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4f3cc384-7717-488a-aab3-2af153e5b3b4",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d7624bbd-2b1c-4598-83cc-95f67cf1e136",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d8e53e02-1425-4014-91b7-274c662fc2e3",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "385595f3-40a1-458d-b184-57d0eedae5d6",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "MOB",
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eaa7b4d7-3dbd-4a35-b86b-5e28c46ddf14",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0b234534-69fd-4172-bd99-17b9589b8990",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e60a9afa-7f58-4a28-996a-01a0ab6bd191",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b6fea165-f5d5-4fce-b1f8-6fc82b5b6225",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4f2bd319-8554-4953-9d83-56de8e82d5cf",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0926d1ba-59cc-4e94-82de-ce0a43b72fd9",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d31e59c7-3735-4df2-a910-750ec68c08c2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "a7141f4d-8cea-46da-94e9-0cfa96aa7385",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "bec0b78d-8713-46de-a747-71b7e5d00844",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 8,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3e5ef1bc-2d1c-4a76-b766-77dc61953a12",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "invites": []
+    },
+    "playedLore": false,
+    "receivedBook": false,
+    "groupData": {
+      "6cd8e775-6415-42d3-b442-011a2df0432c": 0,
+      "db564a5e-2fbc-42eb-9520-541c8d805ff6": 0,
+      "ae235836-557b-430c-b7eb-53dd0cd949ba": 0,
+      "bffb307a-dcc8-4348-939c-4aa92c6c48bc": 0,
+      "f0e0257d-4271-462c-b850-5a3a9d2fe86a": 0,
+      "5d2a688d-0632-48e1-a69b-9c8e1b25e860": 0,
+      "bc997395-b910-46c8-bf0e-96e9cd5268f3": 0,
+      "4ad01498-65ee-4c37-982e-793cc91e59aa": 0,
+      "fa120741-a620-4c08-b2dd-a114e6be24c9": 0,
+      "1d813c84-4482-4c66-8b41-fce38e304051": 0,
+      "d71012be-1403-4324-86aa-b882c344af69": 0,
+      "473f76f9-d33f-43f4-aef0-cc0474d86c5c": 0,
+      "ce4efa65-85f9-4f7e-83a0-2600a8148af6": 0,
+      "ebe8931d-97cc-41a8-ad77-58ad1eeed73e": 0,
+      "eaad0262-647c-47b9-b9db-0570814aa7cc": 0,
+      "74ad93ed-28d9-4863-b721-5a8e46f35e11": 0,
+      "76fceeaf-d9ca-4914-b21c-a52c6a1c5875": 0,
+      "0aaf5d8a-8cb3-4bc3-993d-e460c7df1a28": 0,
+      "19b07c24-b525-4320-9886-883027aa6220": 0,
+      "084cb2e6-1889-419b-a5ca-1dac30773c58": 0,
+      "dd3ade9b-b341-4f2a-a428-97122523f1b4": 0,
+      "e12604f0-9b1d-45ad-8788-510bb5822431": 0,
+      "6d9ddb9e-ff62-40ac-b29e-a21a39fb77e6": 0,
+      "247de82e-77a8-4584-ac55-fe80fd9d1cd4": 0,
+      "5560a8ab-4479-406d-ab99-986ffd3b4bdf": 0,
+      "573acfa4-237e-4731-86f1-ae6d8189cc15": 0,
+      "42b26520-9f57-4f55-b843-cb2083ef3747": 0,
+      "6c2bb2e8-5e0a-4e49-8209-82a3f0f95967": 0,
+      "0a391deb-2b71-4e91-a0c9-b7ab11df3e88": 0,
+      "5e251bce-7ccb-4e39-942a-69b262d69de8": 0,
+      "f7122858-b718-46c8-b5d1-df120bd19114": 0,
+      "e692dd7e-bdbc-4224-a0be-54403eddf5f7": 0,
+      "5096d844-6cca-4ae0-8822-e53451919a4f": 0,
+      "1b25a912-59e0-4160-90ec-ebeea28b6480": 0,
+      "dd622717-ef46-43af-9806-0b4290ead7df": 0,
+      "c6da4423-fcf3-4c1d-a369-2af6687fd9e4": 0,
+      "441e9761-0fd3-4cc0-99d8-e6184bf95b75": 0,
+      "e6c6defa-d406-4070-b966-4e6490254705": 0,
+      "85c8c79a-5369-40d4-b47a-a3a1f7c75af9": 0
+    },
+    "deaths": {
+      "ef335530-464c-4717-a202-d1987bff04dd": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "uuid": "52a669e2-5346-4053-b4cb-c96accb5026b",
+    "lives": 3,
+    "team": {
+      "id": -1,
+      "lifeSetting": "SHARE",
+      "rewardSetting": "ALL",
+      "players": [
+        {
+          "uuid": "52a669e2-5346-4053-b4cb-c96accb5026b",
+          "owner": true,
+          "bookOpen": false,
+          "inTeam": true
+        }
+      ],
+      "reputations": [],
+      "questDataList": [
+        {
+          "questId": "7256d5a5-f159-485d-9623-99ad30bd79a2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c1f635d2-35a7-4a12-ab05-51b442e3efa2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6700fe82-0772-46b1-8b10-ae20bcd548e5",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "34e5df4e-9ee5-4f7c-bff0-7807fe4a27dd",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "29c317cf-ed5c-4ca7-9c60-95bece4bd2b6",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "994ced21-62f7-4160-a73a-a41f83b5ec9a",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "f79ad2b5-8b46-4b90-b743-5074cd8cbe42",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "ffba551f-7638-4816-b914-ef431c709750",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b70ab6c0-117d-476b-8e42-7614e8a43dc1",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 8,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "9d679895-7dee-4f7c-851b-f344dc541f7c",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "cb3a6f4d-9738-4a76-9870-73919133fc27",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3afe3b6b-2e00-4eda-8e90-fdabf7d117ca",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 10,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "5ded2ba7-5c62-46f2-93af-b5bfb83532e2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "917b3cd6-88c1-4fe0-9542-516067b27980",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "117e6c78-b1fb-4dcd-8623-631a8d4cf711",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d290862b-820d-4282-9aa2-7a0c31646718",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "8164095d-f0b3-4fbb-bce1-f16fdd15e48a",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4d5c6d4d-b0fb-4275-8e8b-bf7f40fc8b40",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e8ba8014-f27c-46d7-b1af-4ef6e11f0b32",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 2,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 6,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "03631b20-707f-4e91-8a93-ded6333271e4",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 0,
+            "tasks": []
+          }
+        },
+        {
+          "questId": "d9527f4c-947d-411f-8dde-8216ccae9734",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1bed26bb-51c9-4dc2-abab-b5d033393a0b",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "MOB",
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "998740a3-a75c-41be-a85b-6e47f08cd703",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "2d91cdf6-665f-4643-a596-6b8b192fa519",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "49dd5e95-5dd4-4aa9-b249-1fb582ac2ec7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 2,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1586522c-432f-4ee2-8900-adaef36aa060",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3220a889-81c7-4cc9-a014-3e387fa2f539",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "27ccecf3-9ccb-4878-9cdb-460bf91b6662",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "2b9ff618-a1d4-4939-8a7c-ebb08851a596",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4f3cc384-7717-488a-aab3-2af153e5b3b4",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d7624bbd-2b1c-4598-83cc-95f67cf1e136",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d8e53e02-1425-4014-91b7-274c662fc2e3",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "385595f3-40a1-458d-b184-57d0eedae5d6",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "MOB",
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eaa7b4d7-3dbd-4a35-b86b-5e28c46ddf14",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0b234534-69fd-4172-bd99-17b9589b8990",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e60a9afa-7f58-4a28-996a-01a0ab6bd191",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b6fea165-f5d5-4fce-b1f8-6fc82b5b6225",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4f2bd319-8554-4953-9d83-56de8e82d5cf",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0926d1ba-59cc-4e94-82de-ce0a43b72fd9",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d31e59c7-3735-4df2-a910-750ec68c08c2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "a7141f4d-8cea-46da-94e9-0cfa96aa7385",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "bec0b78d-8713-46de-a747-71b7e5d00844",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 8,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3e5ef1bc-2d1c-4a76-b766-77dc61953a12",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "invites": []
+    },
+    "playedLore": false,
+    "receivedBook": false,
+    "groupData": {
+      "6cd8e775-6415-42d3-b442-011a2df0432c": 0,
+      "db564a5e-2fbc-42eb-9520-541c8d805ff6": 0,
+      "ae235836-557b-430c-b7eb-53dd0cd949ba": 0,
+      "bffb307a-dcc8-4348-939c-4aa92c6c48bc": 0,
+      "f0e0257d-4271-462c-b850-5a3a9d2fe86a": 0,
+      "5d2a688d-0632-48e1-a69b-9c8e1b25e860": 0,
+      "bc997395-b910-46c8-bf0e-96e9cd5268f3": 0,
+      "4ad01498-65ee-4c37-982e-793cc91e59aa": 0,
+      "fa120741-a620-4c08-b2dd-a114e6be24c9": 0,
+      "1d813c84-4482-4c66-8b41-fce38e304051": 0,
+      "d71012be-1403-4324-86aa-b882c344af69": 0,
+      "473f76f9-d33f-43f4-aef0-cc0474d86c5c": 0,
+      "ce4efa65-85f9-4f7e-83a0-2600a8148af6": 0,
+      "ebe8931d-97cc-41a8-ad77-58ad1eeed73e": 0,
+      "eaad0262-647c-47b9-b9db-0570814aa7cc": 0,
+      "74ad93ed-28d9-4863-b721-5a8e46f35e11": 0,
+      "76fceeaf-d9ca-4914-b21c-a52c6a1c5875": 0,
+      "0aaf5d8a-8cb3-4bc3-993d-e460c7df1a28": 0,
+      "19b07c24-b525-4320-9886-883027aa6220": 0,
+      "084cb2e6-1889-419b-a5ca-1dac30773c58": 0,
+      "dd3ade9b-b341-4f2a-a428-97122523f1b4": 0,
+      "e12604f0-9b1d-45ad-8788-510bb5822431": 0,
+      "6d9ddb9e-ff62-40ac-b29e-a21a39fb77e6": 0,
+      "247de82e-77a8-4584-ac55-fe80fd9d1cd4": 0,
+      "5560a8ab-4479-406d-ab99-986ffd3b4bdf": 0,
+      "573acfa4-237e-4731-86f1-ae6d8189cc15": 0,
+      "42b26520-9f57-4f55-b843-cb2083ef3747": 0,
+      "6c2bb2e8-5e0a-4e49-8209-82a3f0f95967": 0,
+      "0a391deb-2b71-4e91-a0c9-b7ab11df3e88": 0,
+      "5e251bce-7ccb-4e39-942a-69b262d69de8": 0,
+      "f7122858-b718-46c8-b5d1-df120bd19114": 0,
+      "e692dd7e-bdbc-4224-a0be-54403eddf5f7": 0,
+      "5096d844-6cca-4ae0-8822-e53451919a4f": 0,
+      "1b25a912-59e0-4160-90ec-ebeea28b6480": 0,
+      "dd622717-ef46-43af-9806-0b4290ead7df": 0,
+      "c6da4423-fcf3-4c1d-a369-2af6687fd9e4": 0,
+      "441e9761-0fd3-4cc0-99d8-e6184bf95b75": 0,
+      "e6c6defa-d406-4070-b966-4e6490254705": 0,
+      "85c8c79a-5369-40d4-b47a-a3a1f7c75af9": 0
+    },
+    "deaths": {
+      "52a669e2-5346-4053-b4cb-c96accb5026b": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "uuid": "f2c87fd8-7dd0-4a59-b23e-822318d83e3b",
+    "lives": 3,
+    "team": {
+      "id": -1,
+      "lifeSetting": "SHARE",
+      "rewardSetting": "ALL",
+      "players": [
+        {
+          "uuid": "f2c87fd8-7dd0-4a59-b23e-822318d83e3b",
+          "owner": true,
+          "bookOpen": false,
+          "inTeam": true
+        }
+      ],
+      "reputations": [],
+      "questDataList": [
+        {
+          "questId": "7256d5a5-f159-485d-9623-99ad30bd79a2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "c1f635d2-35a7-4a12-ab05-51b442e3efa2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6700fe82-0772-46b1-8b10-ae20bcd548e5",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "34e5df4e-9ee5-4f7c-bff0-7807fe4a27dd",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "29c317cf-ed5c-4ca7-9c60-95bece4bd2b6",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "994ced21-62f7-4160-a73a-a41f83b5ec9a",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "f79ad2b5-8b46-4b90-b743-5074cd8cbe42",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "bb56ba4a-1480-4bc9-ab35-6a679c687e18",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "ffba551f-7638-4816-b914-ef431c709750",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b70ab6c0-117d-476b-8e42-7614e8a43dc1",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 8,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "9d679895-7dee-4f7c-851b-f344dc541f7c",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "cb3a6f4d-9738-4a76-9870-73919133fc27",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3afe3b6b-2e00-4eda-8e90-fdabf7d117ca",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 10,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "5ded2ba7-5c62-46f2-93af-b5bfb83532e2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "917b3cd6-88c1-4fe0-9542-516067b27980",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "117e6c78-b1fb-4dcd-8623-631a8d4cf711",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d290862b-820d-4282-9aa2-7a0c31646718",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "8164095d-f0b3-4fbb-bce1-f16fdd15e48a",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4d5c6d4d-b0fb-4275-8e8b-bf7f40fc8b40",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e8ba8014-f27c-46d7-b1af-4ef6e11f0b32",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 2,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 6,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "03631b20-707f-4e91-8a93-ded6333271e4",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 0,
+            "tasks": []
+          }
+        },
+        {
+          "questId": "d9527f4c-947d-411f-8dde-8216ccae9734",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1bed26bb-51c9-4dc2-abab-b5d033393a0b",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "MOB",
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "998740a3-a75c-41be-a85b-6e47f08cd703",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "2d91cdf6-665f-4643-a596-6b8b192fa519",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 5,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "49dd5e95-5dd4-4aa9-b249-1fb582ac2ec7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 2,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "1586522c-432f-4ee2-8900-adaef36aa060",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3220a889-81c7-4cc9-a014-3e387fa2f539",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "dfd9b28f-2dac-454f-9d4f-0aecb3d8a6a3",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "27ccecf3-9ccb-4878-9cdb-460bf91b6662",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "2b9ff618-a1d4-4939-8a7c-ebb08851a596",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 4,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4f3cc384-7717-488a-aab3-2af153e5b3b4",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d7624bbd-2b1c-4598-83cc-95f67cf1e136",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d8e53e02-1425-4014-91b7-274c662fc2e3",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "385595f3-40a1-458d-b184-57d0eedae5d6",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "MOB",
+                "completed": false,
+                "count": 1,
+                "killed": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "eaa7b4d7-3dbd-4a35-b86b-5e28c46ddf14",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0b234534-69fd-4172-bd99-17b9589b8990",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "6a34a0ad-0f47-4f1d-aa77-a34a1832e0e7",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 2,
+                "progress": [
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "e60a9afa-7f58-4a28-996a-01a0ab6bd191",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "b6fea165-f5d5-4fce-b1f8-6fc82b5b6225",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "4f2bd319-8554-4953-9d83-56de8e82d5cf",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "0926d1ba-59cc-4e94-82de-ce0a43b72fd9",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "d31e59c7-3735-4df2-a910-750ec68c08c2",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "a7141f4d-8cea-46da-94e9-0cfa96aa7385",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "bec0b78d-8713-46de-a747-71b7e5d00844",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 1,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 8,
+                "progress": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "questId": "3e5ef1bc-2d1c-4a76-b766-77dc61953a12",
+          "questData": {
+            "players": 1,
+            "rewards": [
+              false
+            ],
+            "completed": false,
+            "claimed": false,
+            "available": true,
+            "time": 0,
+            "tasksSize": 3,
+            "tasks": [
+              {
+                "type": "ITEMS",
+                "completed": false,
+                "count": 1,
+                "progress": [
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "invites": []
+    },
+    "playedLore": false,
+    "receivedBook": false,
+    "groupData": {
+      "6cd8e775-6415-42d3-b442-011a2df0432c": 0,
+      "db564a5e-2fbc-42eb-9520-541c8d805ff6": 0,
+      "ae235836-557b-430c-b7eb-53dd0cd949ba": 0,
+      "bffb307a-dcc8-4348-939c-4aa92c6c48bc": 0,
+      "f0e0257d-4271-462c-b850-5a3a9d2fe86a": 0,
+      "5d2a688d-0632-48e1-a69b-9c8e1b25e860": 0,
+      "bc997395-b910-46c8-bf0e-96e9cd5268f3": 0,
+      "4ad01498-65ee-4c37-982e-793cc91e59aa": 0,
+      "fa120741-a620-4c08-b2dd-a114e6be24c9": 0,
+      "1d813c84-4482-4c66-8b41-fce38e304051": 0,
+      "d71012be-1403-4324-86aa-b882c344af69": 0,
+      "473f76f9-d33f-43f4-aef0-cc0474d86c5c": 0,
+      "ce4efa65-85f9-4f7e-83a0-2600a8148af6": 0,
+      "ebe8931d-97cc-41a8-ad77-58ad1eeed73e": 0,
+      "eaad0262-647c-47b9-b9db-0570814aa7cc": 0,
+      "74ad93ed-28d9-4863-b721-5a8e46f35e11": 0,
+      "76fceeaf-d9ca-4914-b21c-a52c6a1c5875": 0,
+      "0aaf5d8a-8cb3-4bc3-993d-e460c7df1a28": 0,
+      "19b07c24-b525-4320-9886-883027aa6220": 0,
+      "084cb2e6-1889-419b-a5ca-1dac30773c58": 0,
+      "dd3ade9b-b341-4f2a-a428-97122523f1b4": 0,
+      "e12604f0-9b1d-45ad-8788-510bb5822431": 0,
+      "6d9ddb9e-ff62-40ac-b29e-a21a39fb77e6": 0,
+      "247de82e-77a8-4584-ac55-fe80fd9d1cd4": 0,
+      "5560a8ab-4479-406d-ab99-986ffd3b4bdf": 0,
+      "573acfa4-237e-4731-86f1-ae6d8189cc15": 0,
+      "42b26520-9f57-4f55-b843-cb2083ef3747": 0,
+      "6c2bb2e8-5e0a-4e49-8209-82a3f0f95967": 0,
+      "0a391deb-2b71-4e91-a0c9-b7ab11df3e88": 0,
+      "5e251bce-7ccb-4e39-942a-69b262d69de8": 0,
+      "f7122858-b718-46c8-b5d1-df120bd19114": 0,
+      "e692dd7e-bdbc-4224-a0be-54403eddf5f7": 0,
+      "5096d844-6cca-4ae0-8822-e53451919a4f": 0,
+      "1b25a912-59e0-4160-90ec-ebeea28b6480": 0,
+      "dd622717-ef46-43af-9806-0b4290ead7df": 0,
+      "c6da4423-fcf3-4c1d-a369-2af6687fd9e4": 0,
+      "441e9761-0fd3-4cc0-99d8-e6184bf95b75": 0,
+      "e6c6defa-d406-4070-b966-4e6490254705": 0,
+      "85c8c79a-5369-40d4-b47a-a3a1f7c75af9": 0
+    },
+    "deaths": {
+      "f2c87fd8-7dd0-4a59-b23e-822318d83e3b": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

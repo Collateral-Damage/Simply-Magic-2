@@ -1,0 +1,228 @@
+{
+  "name": "Introduction And Misc",
+  "description": "Welcome to Simply Magic 2! This pack is currently in development. Cheers! - BaileyH, Brizzle, Bluedog444",
+  "quests": [
+    {
+      "uuid": "7256d5a5-f159-485d-9623-99ad30bd79a2",
+      "name": "Loot Bags",
+      "description": "Loot bags contain random items of variable use. Some groups of items may only be received once while others can be obtained infinitely. Enjoy!",
+      "x": 54,
+      "y": 15,
+      "icon": {
+        "id": "hardcorequesting:bags",
+        "damage": 4
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cb3a6f4d-9738-4a76-9870-73919133fc27",
+      "name": "Script Changes",
+      "description": "You will quickly find that your skill with minecraft armors and tools is not up to par. Material above iron has been heavily nerfed in favor of mod use and early game challenge. Good luck!",
+      "x": 23,
+      "y": 15,
+      "icon": {
+        "id": "arsmagica2:bound_pickaxe"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
+      "name": "Waystones",
+      "description": "Waystones can be an excellent way of fast traveling in the world. They can be crafted and placed in the world. You may then bound a return scroll to the waystone and use it to teleport back to the stone.",
+      "x": 57,
+      "y": 73,
+      "icon": {
+        "id": "waystones:waystone"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c1f635d2-35a7-4a12-ab05-51b442e3efa2",
+      "name": "Sapling Replant",
+      "description": "Thanks to Event Tweaks, saplings will auto replant when dropping from leaf blocks. This can be disabled in the Event Tweaks config file.",
+      "x": 22,
+      "y": 75,
+      "icon": {
+        "id": "minecraft:sapling"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0",
+      "name": "Reliquary",
+      "description": "Coming Soon!",
+      "x": 55,
+      "y": 45,
+      "icon": {
+        "id": "xreliquary:alkahestry_tome",
+        "damage": 1001
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:hqmInvalidItem"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "917b3cd6-88c1-4fe0-9542-516067b27980",
+      "name": "MineColonies",
+      "description": "Coming Soon!",
+      "x": 188,
+      "y": 23,
+      "icon": {
+        "id": "minecolonies:supplyChestDeployer"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "hardcorequesting:hqmInvalidItem"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "49dd5e95-5dd4-4aa9-b249-1fb582ac2ec7",
+      "name": "Soul Shards",
+      "description": "Getting started with soul shards will require an unbound soul shard. A Soul Shard can be created by placing a glowstone block in the world with quartz blocks adjacent to the glowstone and obsidian in the corners creating a 3x3 square. Clicking the glowstone block with a diamond will give you one unbound soul shard.",
+      "x": 239,
+      "y": 22,
+      "icon": {
+        "id": "soulshardstow:BlockCage"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Your first kill with the shard in your inventory will bind it to that type of monster. Additional kills will continue to charge the shard until you reach different tiers of the shard.",
+          "items": [
+            {
+              "item": {
+                "id": "soulshardstow:ItemSoulShard",
+                "nbt": "{Tier:0,KillCount:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "The soul cage can be given a bound shard and will spawn mobs at a rate given by the tier of the shard. More shards of the same type can be given to the cage to increase its tier.",
+          "items": [
+            {
+              "item": {
+                "id": "soulshardstow:BlockCage"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1586522c-432f-4ee2-8900-adaef36aa060",
+      "name": "Decor!",
+      "description": "Simply Magic offers many options for base building and decoration! The following mods are included: DecoCraft, ArchitectureCraft, Chisel/Chisel and Bits, Platforms. and WallpaperCraft!",
+      "x": 22,
+      "y": 44,
+      "icon": {
+        "id": "chisel:chisel_diamond"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
