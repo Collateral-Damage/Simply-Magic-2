@@ -126,3 +126,60 @@ recipes.remove(<xreliquary:twilight_cloak>);
 #Witherless Rose
 recipes.remove(<xreliquary:witherless_rose>);
 <xreliquary:witherless_rose>.addTooltip(format.red("This is found in dungeons!"));
+
+#Sojourner's Staff
+recipes.remove(<xreliquary:sojourner_staff>);
+<xreliquary:sojourner_staff>.addTooltip(format.red("This is found in dungeons!"));
+
+#Empty Void Tear
+recipes.remove(<xreliquary:void_tear_empty>);
+<xreliquary:void_tear_empty>.addTooltip(format.red("This is found in dungeons!"));
+
+
+#Aphrodite's Serum [NOT LOOT]
+recipes.remove(<xreliquary:attraction_potion>);
+recipes.addShaped(<xreliquary:attraction_potion> * 4, [[<minecraft:glass_pane>, <minecraft:water_bucket>, <minecraft:glass_pane>],[<minecraft:glass_pane>, <xreliquary:fertile_lilypad>, <minecraft:glass_pane>], [<minecraft:wheat_seeds>, <minecraft:glass_pane>, <minecraft:wheat_seeds>]]);
+
+#Charm Belt [NOT LOOT]
+recipes.remove(<xreliquary:mob_charm_belt>);
+recipes.addShaped(<xreliquary:mob_charm_belt>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
+
+#Angelheart Vial [NOT LOOT]
+recipes.remove(<xreliquary:angelheart_vial>);
+recipes.addShaped(<xreliquary:angelheart_vial>, [[<minecraft:glass_pane>, <minecraft:milk_bucket>, <minecraft:glass_pane>],[<minecraft:glass_pane>, <minecraft:nether_star>, <minecraft:glass_pane>], [<minecraft:soul_sand>, <minecraft:glass_pane>, <minecraft:soul_sand>]]);
+
+#Fertile Potion [NOT LOOT]
+recipes.remove(<xreliquary:fertile_potion>);
+recipes.addShaped(<xreliquary:fertile_potion> * 3, [[<minecraft:glass_pane>, <minecraft:water_bucket>, <minecraft:glass_pane>],[<minecraft:glass_pane>, <minecraft:bone_block>, <minecraft:glass_pane>], [<minecraft:dye:11>, <minecraft:glass_pane>, <minecraft:dye:2>]]);
+
+#Empty Casing
+mods.jei.JEI.hide(<xreliquary:bullet>);
+
+#Remove Hidden
+recipes.remove(<xreliquary:magazine>);
+recipes.remove(<xreliquary:apothecary_mortar>);
+recipes.remove(<xreliquary:bullet>);
+recipes.remove(<xreliquary:potion>);
+recipes.remove(<xreliquary:mob_charm_fragment>);
+recipes.remove(<xreliquary:mob_ingredient>);
+recipes.remove(<xreliquary:gun_part:2>);
+recipes.remove(<xreliquary:wraith_node>);
+recipes.remove(<xreliquary:handgun>);
+recipes.remove(<xreliquary:potion_essence>);
+recipes.remove(<xreliquary:apothecary_cauldron>);
+recipes.remove(<xreliquary:tipped_arrow>);
+recipes.remove(<xreliquary:gun_part:0>);
+recipes.remove(<xreliquary:gun_part:1>);
+
+
+
+
+
+
+
+
+
+
+
+
+
