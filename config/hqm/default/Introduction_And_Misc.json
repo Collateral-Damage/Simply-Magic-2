@@ -12,11 +12,9 @@
         "id": "xreliquary:holy_hand_grenade"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -42,11 +40,9 @@
         "nbt": "{mode:\"flight\"}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -78,11 +74,9 @@
         "id": "xreliquary:shears_of_winter"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -129,6 +123,31 @@
       "commandrewards": []
     },
     {
+      "uuid": "94f7744e-912c-49e5-9e38-91143a7ad468",
+      "name": "Reliquary",
+      "description": "You can find Reliquary items in dungeons as loot!",
+      "x": 56,
+      "y": 75,
+      "icon": {
+        "id": "xreliquary:alkahestry_tome",
+        "damage": 1001
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "477c5b18-bf59-4e9a-8d6e-399f0ce77ef8",
       "name": "Empty Void Tear",
       "description": "The Empty Void Tear will absorb all of the item that has the highest amount in your inventory. You can click the tear again to regain all of the items.",
@@ -138,11 +157,9 @@
         "id": "xreliquary:void_tear_empty"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -182,31 +199,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0",
-      "name": "Reliquary",
-      "description": "Coming Soon!",
-      "x": 55,
-      "y": 75,
-      "icon": {
-        "id": "xreliquary:alkahestry_tome",
-        "damage": 1001
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "hardcorequesting:hqmInvalidItem"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "ee42423a-0e73-496f-8e69-21ce88a1b1e1",
       "name": "Altar Of Light",
       "description": "Feed it redstone by right clicking on it with redstone in your hand. During daytime the altar will become active and emit yellow particles. On the second day after it\u0027s been activated (with 3 redstone dust) it will produce a single block of glowstone.",
@@ -216,11 +208,9 @@
         "id": "xreliquary:altar"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -246,11 +236,9 @@
         "nbt": "{enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -283,11 +271,9 @@
         "nbt": "{enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -320,11 +306,9 @@
         "nbt": "{type:13b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -438,11 +422,9 @@
         "nbt": "{mode:\"blaze\",enabled:1b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -468,11 +450,9 @@
         "id": "xreliquary:rod_of_lyssa"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -497,11 +477,9 @@
         "id": "xreliquary:mercy_cross"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -526,11 +504,9 @@
         "id": "xreliquary:phoenix_down"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -556,11 +532,9 @@
         "nbt": "{enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -612,11 +586,9 @@
         "nbt": "{mode:\"plantable\",plantable_index:1b,enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -654,11 +626,9 @@
         "nbt": "{gunpowder:1,enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -690,11 +660,9 @@
         "id": "xreliquary:interdiction_torch"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -743,11 +711,9 @@
         "nbt": "{mode:\"long_cast\",enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -779,11 +745,9 @@
         "id": "xreliquary:infernal_claws"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -809,11 +773,9 @@
         "nbt": "{BlockLocations:[],snowballs:4,enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -845,11 +807,9 @@
         "id": "xreliquary:kraken_shell"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -874,11 +834,9 @@
         "id": "xreliquary:magicbane"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -903,11 +861,9 @@
         "id": "xreliquary:fertile_lilypad"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -932,11 +888,9 @@
         "id": "xreliquary:angelic_feather"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1031,11 +985,9 @@
         "nbt": "{fluidStacks:1000,enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1061,11 +1013,9 @@
         "id": "xreliquary:witherless_rose"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1090,11 +1040,9 @@
         "id": "xreliquary:serpent_staff"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1143,11 +1091,9 @@
         "id": "xreliquary:fortune_coin"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1173,11 +1119,9 @@
         "nbt": "{enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1203,11 +1147,9 @@
         "id": "xreliquary:salamander_eye"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1233,11 +1175,9 @@
         "nbt": "{enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
@@ -1270,11 +1210,9 @@
         "nbt": "{experience:0,enabled:0b}"
       },
       "prerequisites": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+        "94f7744e-912c-49e5-9e38-91143a7ad468"
       ],
-      "optionlinks": [
-        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
-      ],
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "DETECT",
