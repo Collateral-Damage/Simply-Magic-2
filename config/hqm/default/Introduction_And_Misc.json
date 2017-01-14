@@ -51,7 +51,8 @@
               "item": {
                 "id": "xreliquary:rending_gale",
                 "nbt": "{mode:\"flight\"}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -167,7 +168,8 @@
             {
               "item": {
                 "id": "xreliquary:void_tear_empty"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -247,7 +249,8 @@
               "item": {
                 "id": "xreliquary:midas_touchstone",
                 "nbt": "{enabled:0b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -433,7 +436,8 @@
               "item": {
                 "id": "xreliquary:pyromancer_staff",
                 "nbt": "{mode:\"blaze\",enabled:1b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -597,7 +601,8 @@
               "item": {
                 "id": "xreliquary:harvest_rod",
                 "nbt": "{mode:\"plantable\",plantable_index:1b,enabled:0b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -637,7 +642,8 @@
               "item": {
                 "id": "xreliquary:destruction_catalyst",
                 "nbt": "{gunpowder:1,enabled:0b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -722,7 +728,8 @@
               "item": {
                 "id": "xreliquary:ender_staff",
                 "nbt": "{mode:\"long_cast\",enabled:0b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -784,7 +791,8 @@
               "item": {
                 "id": "xreliquary:glacial_staff",
                 "nbt": "{BlockLocations:[],snowballs:4,enabled:0b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -844,7 +852,8 @@
             {
               "item": {
                 "id": "xreliquary:magicbane"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1050,7 +1059,8 @@
             {
               "item": {
                 "id": "xreliquary:serpent_staff"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1186,7 +1196,8 @@
               "item": {
                 "id": "xreliquary:sojourner_staff",
                 "nbt": "{enabled:0b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1221,7 +1232,8 @@
               "item": {
                 "id": "xreliquary:hero_medallion",
                 "nbt": "{experience:0,enabled:0b}"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
