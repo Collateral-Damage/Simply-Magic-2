@@ -3,11 +3,106 @@
   "description": "Welcome to Simply Magic 2! This pack is currently in development. Cheers! - BaileyH, Brizzle, Bluedog444",
   "quests": [
     {
+      "uuid": "c5043572-44b5-484a-ac18-9823946032fb",
+      "name": "Holy Hand Grenade",
+      "description": "The Holy Hand Grenade will damage mobs when thrown. It will not destroy blocks or hurt the player throwing it.",
+      "x": 115,
+      "y": 152,
+      "icon": {
+        "id": "xreliquary:holy_hand_grenade"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:holy_hand_grenade"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc6f5da7-9d87-449c-a63f-bd21b0168ea6",
+      "name": "Rending Gale",
+      "description": "The Rending Gale will absort feathers to allow you to push and pull mobs and also fly. To get it to absorb feathers shift right click with feathers in your inventory.",
+      "x": 269,
+      "y": 126,
+      "icon": {
+        "id": "xreliquary:rending_gale",
+        "nbt": "{mode:\"flight\"}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:rending_gale",
+                "nbt": "{mode:\"flight\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:feather",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "75ed45d1-6986-42f6-9571-54aecfbf1193",
+      "name": "Shears Of Winter",
+      "description": "The Shears Of Winter will remove leaves in an area when you hold down right click with them in your hand.",
+      "x": 221,
+      "y": 153,
+      "icon": {
+        "id": "xreliquary:shears_of_winter"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:shears_of_winter"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "7256d5a5-f159-485d-9623-99ad30bd79a2",
       "name": "Loot Bags",
       "description": "Loot bags contain random items of variable use. Some groups of items may only be received once while others can be obtained infinitely. Enjoy!",
-      "x": 54,
-      "y": 15,
+      "x": 56,
+      "y": 14,
       "icon": {
         "id": "hardcorequesting:bags",
         "damage": 4
@@ -34,48 +129,28 @@
       "commandrewards": []
     },
     {
-      "uuid": "cb3a6f4d-9738-4a76-9870-73919133fc27",
-      "name": "Script Changes",
-      "description": "You will quickly find that your skill with minecraft armors and tools is not up to par. Material above iron has been heavily nerfed in favor of mod use and early game challenge. Good luck!",
-      "x": 23,
-      "y": 15,
+      "uuid": "477c5b18-bf59-4e9a-8d6e-399f0ce77ef8",
+      "name": "Empty Void Tear",
+      "description": "The Empty Void Tear will absorb all of the item that has the highest amount in your inventory. You can click the tear again to regain all of the items.",
+      "x": 173,
+      "y": 180,
       "icon": {
-        "id": "arsmagica2:bound_pickaxe"
+        "id": "xreliquary:void_tear_empty"
       },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:planks",
-                "damage": 2
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
-      "name": "Waystones",
-      "description": "Waystones can be an excellent way of fast traveling in the world. They can be crafted and placed in the world. You may then bound a return scroll to the waystone and use it to teleport back to the stone.",
-      "x": 57,
-      "y": 73,
-      "icon": {
-        "id": "waystones:waystone"
-      },
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
       "tasks": [
         {
-          "type": "CONSUME",
+          "type": "DETECT",
           "items": [
             {
               "item": {
-                "id": "minecraft:planks"
-              },
-              "precision": "FUZZY"
+                "id": "xreliquary:void_tear_empty"
+              }
             }
           ]
         }
@@ -111,7 +186,7 @@
       "name": "Reliquary",
       "description": "Coming Soon!",
       "x": 55,
-      "y": 45,
+      "y": 75,
       "icon": {
         "id": "xreliquary:alkahestry_tome",
         "damage": 1001
@@ -125,6 +200,509 @@
                 "id": "hardcorequesting:hqmInvalidItem"
               },
               "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee42423a-0e73-496f-8e69-21ce88a1b1e1",
+      "name": "Altar Of Light",
+      "description": "Feed it redstone by right clicking on it with redstone in your hand. During daytime the altar will become active and emit yellow particles. On the second day after it\u0027s been activated (with 3 redstone dust) it will produce a single block of glowstone.",
+      "x": 19,
+      "y": 125,
+      "icon": {
+        "id": "xreliquary:altar"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:altar_idle"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "314a3ee1-f447-41c8-aa3e-3c9dcc9718d1",
+      "name": "Touchstone Of Midas",
+      "description": "The Touchstone Of Midas will repair gold items in exchange for glowstone dust. To get it to absort glowstone dust shift right click with it in your hand.",
+      "x": 173,
+      "y": 126,
+      "icon": {
+        "id": "xreliquary:midas_touchstone",
+        "nbt": "{enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:midas_touchstone",
+                "nbt": "{enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "23a7f5d9-3b3b-46c4-a6db-f8e52048ede6",
+      "name": "Lantern Of Paranoia",
+      "description": "The Lantern Of Paranoia will place torches that are in your inventory. To activate this simply shift right click with it in your hand.",
+      "x": 91,
+      "y": 179,
+      "icon": {
+        "id": "xreliquary:lantern_of_paranoia",
+        "nbt": "{enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:lantern_of_paranoia",
+                "nbt": "{enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:torch",
+          "amount": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3af57297-f6dc-4414-8269-c7ec9c89479c",
+      "name": "Mob Charms",
+      "description": "A Mob Charm will stop a particular mob from seeing you which means that you will not be attacked by that mob type.",
+      "x": 197,
+      "y": 126,
+      "icon": {
+        "id": "xreliquary:mob_charm",
+        "nbt": "{type:13b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:0b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:1b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:2b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:3b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:4b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:5b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:6b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:7b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:8b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:9b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:10b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:11b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:12b}"
+              }
+            },
+            {
+              "item": {
+                "id": "xreliquary:mob_charm",
+                "nbt": "{type:13b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:nether_star"
+        },
+        {
+          "id": "minecraft:diamond",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d4c5fab9-9441-4c17-a079-1bce01c3d931",
+      "name": "Pyromacer\u0027s Staff",
+      "description": "The Pyromancer\u0027s Staff will absorb fire charges and blaze powder to shoot fireballs and light fires. To change the mode shift left click. To get it to absort items shift right click.",
+      "x": 245,
+      "y": 126,
+      "icon": {
+        "id": "xreliquary:pyromancer_staff",
+        "nbt": "{mode:\"blaze\",enabled:1b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:pyromancer_staff",
+                "nbt": "{mode:\"blaze\",enabled:1b}"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9626b11f-d3d7-4e20-9b48-7a8aa88380a0",
+      "name": "Rod Of Lyssa",
+      "description": "The Rod Of Lyssa can be used to get items from affar. It can also be used to pickpocket!",
+      "x": 293,
+      "y": 126,
+      "icon": {
+        "id": "xreliquary:rod_of_lyssa"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:rod_of_lyssa"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "47c2a8f1-3824-4119-b534-fd2e9c295fa8",
+      "name": "Cross of Mercy",
+      "description": "The Cross of Mercy will deal more damage to undead mobs such as zombies and skeletons.",
+      "x": 139,
+      "y": 179,
+      "icon": {
+        "id": "xreliquary:mercy_cross"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:mercy_cross"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c5ed3d86-3b9c-4fe2-b4ed-dc981115628b",
+      "name": "Phoenix Down",
+      "description": "The Phoenix Down item will bring you back to life with full health if you \"die\". It will then turn into an Angelic Feather.",
+      "x": 221,
+      "y": 126,
+      "icon": {
+        "id": "xreliquary:phoenix_down"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:phoenix_down"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3d320eec-26ff-491f-806d-7b7741416cf0",
+      "name": "Twilight Cloak",
+      "description": "The Twilight Cloak will make you invisible in the darkness. To activate shift right click with it in your hand.",
+      "x": 245,
+      "y": 153,
+      "icon": {
+        "id": "xreliquary:twilight_cloak",
+        "nbt": "{enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:twilight_cloak",
+                "nbt": "{enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cb3a6f4d-9738-4a76-9870-73919133fc27",
+      "name": "Script Changes",
+      "description": "You will quickly find that your skill with minecraft armors and tools is not up to par. Material above iron has been heavily nerfed in favor of mod use and early game challenge. Good luck!",
+      "x": 23,
+      "y": 15,
+      "icon": {
+        "id": "arsmagica2:bound_pickaxe"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks",
+                "damage": 2
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "037b5027-8fb1-45cc-88b2-33146143474e",
+      "name": "Harvest Rod",
+      "description": "The Harvest Rod will consume seeds and bonemeal. To change the mode of the rod shift left click. To get it to absorb items shift right click. To use the harvest mode cycle through till you see a hoe and simply left click with the rod.",
+      "x": 67,
+      "y": 152,
+      "icon": {
+        "id": "xreliquary:harvest_rod",
+        "nbt": "{mode:\"plantable\",plantable_index:1b,enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:harvest_rod",
+                "nbt": "{mode:\"plantable\",plantable_index:1b,enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:dye",
+          "damage": 15,
+          "amount": 16
+        },
+        {
+          "id": "minecraft:wheat_seeds",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "69e94fd1-d23c-4ece-b1e3-0a931913daae",
+      "name": "Destruction Catalyst",
+      "description": "The Destruction Catalyst will consume gunpowder to mine a 3x3 area. To get it to consume the gunpower shift right click with the gunpower in your inventory. You need it to consume 4 gunpower before it will work. When used it will consume 3 gunpowder.",
+      "x": 67,
+      "y": 125,
+      "icon": {
+        "id": "xreliquary:destruction_catalyst",
+        "nbt": "{gunpowder:1,enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:destruction_catalyst",
+                "nbt": "{gunpowder:1,enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 12
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "45ab2f0d-ca4d-4ab8-99ba-58ed022050e9",
+      "name": "Interdiction Torch",
+      "description": "The Interdiction Torch can be placed down and will then prevent mobs from coming close to it.",
+      "x": 43,
+      "y": 179,
+      "icon": {
+        "id": "xreliquary:interdiction_torch"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:interdiction_torch"
+              }
             }
           ]
         }
@@ -147,6 +725,225 @@
             {
               "item": {
                 "id": "hardcorequesting:hqmInvalidItem"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4eec81db-b85e-4e51-952f-66eaa5a7bfa6",
+      "name": "Ender Staff",
+      "description": "The Ender Staff consumes ender pearls to allow you to teleport. You can change the mode of the staff by shift left clicking. To get it to consume ender pearls shift right click with the ender pearls in your inventory.",
+      "x": 115,
+      "y": 125,
+      "icon": {
+        "id": "xreliquary:ender_staff",
+        "nbt": "{mode:\"long_cast\",enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:ender_staff",
+                "nbt": "{mode:\"long_cast\",enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "550c0905-889c-478f-9f0a-cd6e02737c2e",
+      "name": "Infernal Claws",
+      "description": "Infernal Claws will use a bit of your hunger to prevent you being harmed by fire damage",
+      "x": 139,
+      "y": 153,
+      "icon": {
+        "id": "xreliquary:infernal_claws"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:infernal_claws"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4e388227-79b2-42bf-beea-5222afd49a23",
+      "name": "Glacial Staff",
+      "description": "The Glacial Staff will consume snowballs and allow you to shoot them damaging and freezing the target. To get it to consume the snowballs shift right click.",
+      "x": 43,
+      "y": 152,
+      "icon": {
+        "id": "xreliquary:glacial_staff",
+        "nbt": "{BlockLocations:[],snowballs:4,enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:glacial_staff",
+                "nbt": "{BlockLocations:[],snowballs:4,enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:snowball",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1a093edf-22cb-4552-9104-1ddb6cb189ed",
+      "name": "Kraken Shell",
+      "description": "The Kraken Shell will use a bit of your hunger to protect you from drowning damage.",
+      "x": 67,
+      "y": 179,
+      "icon": {
+        "id": "xreliquary:kraken_shell"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:kraken_shell"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0d8c50da-7c8f-4c67-a551-06032177ad9c",
+      "name": "Magicbane",
+      "description": "The Magicbane is a weapon that will increase in strength each time an encharntment is added to it.",
+      "x": 115,
+      "y": 179,
+      "icon": {
+        "id": "xreliquary:magicbane"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:magicbane"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "838b8905-1e8c-4748-a43a-a789a2bbf1ab",
+      "name": "Lilypad Of Fertility",
+      "description": "The Lilypad Of Fertility will increase the speed of your crop growth. You can only place it on water and it will affect an area of 7x7.",
+      "x": 139,
+      "y": 125,
+      "icon": {
+        "id": "xreliquary:fertile_lilypad"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:fertile_lilypad"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4536572c-0078-447b-99a4-91b243b210ea",
+      "name": "Angelic Feather",
+      "description": "The Angelic Feather will use some of your hunger to prevent any fall damage harming you.",
+      "x": 43,
+      "y": 125,
+      "icon": {
+        "id": "xreliquary:angelic_feather"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:angelic_feather"
               }
             }
           ]
@@ -219,6 +1016,282 @@
               "precision": "FUZZY"
             }
           ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e3c275fe-319d-4247-b269-6df41d88df9f",
+      "name": "Infernal Chalice",
+      "description": "The Infernal Chalice will prevent you from being harmed by lava. It can also absorb lava if you shift right click and then right click on the lava. To use it to place lava simply right click.",
+      "x": 19,
+      "y": 179,
+      "icon": {
+        "id": "xreliquary:infernal_chalice",
+        "nbt": "{fluidStacks:1000,enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:infernal_chalice",
+                "nbt": "{fluidStacks:1000,enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e1fce54d-c077-4895-b6e0-b54b124d3087",
+      "name": "Witherless Rose",
+      "description": "The Witherless Rose will protect you from the withering effect when in your inventory.",
+      "x": 269,
+      "y": 153,
+      "icon": {
+        "id": "xreliquary:witherless_rose"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:witherless_rose"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "82cc8787-691f-4444-bcdc-b50a25df87a4",
+      "name": "Serpent Staff",
+      "description": "The Serpent Staff will drain the victims life if hit with an orb from the staff to cast an orb right click with the staff.",
+      "x": 197,
+      "y": 153,
+      "icon": {
+        "id": "xreliquary:serpent_staff"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:serpent_staff"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6de49fb7-6b6b-4e1e-889f-4000438d05c7",
+      "name": "Waystones",
+      "description": "Waystones can be an excellent way of fast traveling in the world. They can be crafted and placed in the world. You may then bound a return scroll to the waystone and use it to teleport back to the stone.",
+      "x": 56,
+      "y": 45,
+      "icon": {
+        "id": "waystones:waystone"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a4af31d6-3c02-4d14-a5dc-c0b6dad584d3",
+      "name": "Coin Of Fortune",
+      "description": "The Coin Of Fortune will pull items towards you from about 5 block away. To activate the coin shift right click.",
+      "x": 19,
+      "y": 152,
+      "icon": {
+        "id": "xreliquary:fortune_coin"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:fortune_coin"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "09999787-5326-41b5-b092-1bb552c321f0",
+      "name": "Emperor\u0027s Chalice",
+      "description": "The Emperor\u0027s Chalice will produce a still water block when you right click with it. It can also absorb water blocks. To get it to absorb water shift right click with it to change the mode.",
+      "x": 91,
+      "y": 125,
+      "icon": {
+        "id": "xreliquary:emperor_chalice",
+        "nbt": "{enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:emperor_chalice",
+                "nbt": "{enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e1719664-b997-4fc6-998f-13ef3182e499",
+      "name": "Salamander\u0027s Eye",
+      "description": "Salamander\u0027s Eye will stop firballs from hitting you. It will also put out fires around you when in your inventory.",
+      "x": 173,
+      "y": 153,
+      "icon": {
+        "id": "xreliquary:salamander_eye"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:salamander_eye"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "376f54f5-2b28-4b5c-95f0-3827075c7135",
+      "name": "Sojourner\u0027s Staff",
+      "description": "Sojourner\u0027s Staff will absorb torches in your inventory and allows you to place them far distances. To get it to absorb them shift right click.",
+      "x": 293,
+      "y": 153,
+      "icon": {
+        "id": "xreliquary:sojourner_staff",
+        "nbt": "{enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:sojourner_staff",
+                "nbt": "{enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:torch",
+          "amount": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d2cedd07-b277-4d1d-bb24-9a46c6ec08a2",
+      "name": "Hero\u0027s Medallion",
+      "description": "The Hero\u0027s Medallion will store your XP for you. Simply shift right click and it will absorb your XP. To get it back right click with it in your hand.",
+      "x": 91,
+      "y": 152,
+      "icon": {
+        "id": "xreliquary:hero_medallion",
+        "nbt": "{experience:0,enabled:0b}"
+      },
+      "prerequisites": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "optionlinks": [
+        "eb8b08b8-7f86-4df2-89a6-6d7e5995a4a0"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "xreliquary:hero_medallion",
+                "nbt": "{experience:0,enabled:0b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:experience_bottle",
+          "amount": 3
         }
       ],
       "commandrewards": []
