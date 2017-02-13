@@ -1,0 +1,680 @@
+{
+  "name": "Botania",
+  "description": "Learn about the mod Botania! Authored by Bluedog444",
+  "quests": [
+    {
+      "uuid": "20a3b1ff-ac49-4d84-bb51-bbfa8395c87f",
+      "name": "Portal to Alfheim part 1",
+      "description": "The first step in creating the Portal to Alfheim is to create the Elven Gateway Core. You will also have to create 2 mana pools, 2 Natura Pylons, 3 Glimmering livingwood blocks and 8 normal living wood blocks.",
+      "x": 207,
+      "y": 110,
+      "icon": {
+        "id": "botania:alfheimPortal"
+      },
+      "prerequisites": [
+        "ea623198-25c4-4432-bc79-30799bcc4ef4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:alfheimPortal"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:pool"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "botania:pylon",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "botania:livingwood",
+                "damage": 5
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "botania:livingwood"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bff28b6e-a4ac-495a-8197-eab4ad5f4f65",
+      "name": "Petal Apothecary",
+      "description": "To start creating flowers you are going to have to create the Petal Apothecary. This has to be filled with water first then you can throw in the required petals and to finish the flower throw seeds into it! To find a recipe for the flowers look in the Lexica Botania.",
+      "x": 86,
+      "y": 54,
+      "icon": {
+        "id": "botania:altar"
+      },
+      "prerequisites": [
+        "3b535acd-2c29-4f86-a627-4b37413836ee"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:altar"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:petal",
+          "damage": 12,
+          "amount": 2
+        },
+        {
+          "id": "botania:petal",
+          "damage": 8
+        },
+        {
+          "id": "botania:petal",
+          "damage": 14
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae7c4beb-a233-4ed4-8398-98fa11538b94",
+      "name": "Terrasteel Armor",
+      "description": "Terrasteel Armor acts in the same way manasteel armor acts. It uses mana instead of taking damage however has the same strength as diamond instead of iron.",
+      "x": 188,
+      "y": 151,
+      "icon": {
+        "id": "botania:terrasteelChest"
+      },
+      "prerequisites": [
+        "ea623198-25c4-4432-bc79-30799bcc4ef4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terrasteelChest"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "botania:terrasteelHelm"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:terrasteelLegs"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:terrasteelBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "damage": 4,
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ce86cf12-60f6-4f91-a6ad-c7a5fe63c7d0",
+      "name": "Functional Flowers",
+      "description": "Botania has a wide range of flowers that can be made. They can do many things from powering furnaces to damaging mobs. To find out what other flowers can do and how to create them look in the Lexica Botania under functional flora.",
+      "x": 61,
+      "y": 13,
+      "icon": {
+        "id": "botania:specialFlower",
+        "nbt": "{type:\"daffomill\"}"
+      },
+      "prerequisites": [
+        "bff28b6e-a4ac-495a-8197-eab4ad5f4f65"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:specialFlower",
+                "nbt": "{type:\"daffomill\"}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3b535acd-2c29-4f86-a627-4b37413836ee",
+      "name": "Botania Help",
+      "description": "For more specific and in depth help you can use Botania\u0027s in game book the Lexica Botania. This will outline the whole mod while the quests will guide you through the main aspects.",
+      "x": 40,
+      "y": 62,
+      "icon": {
+        "id": "botania:lexicon",
+        "nbt": "{knowledge.minecraft:1b,knowledge.alfheim:1b,knowledge.relic:1b}"
+      },
+      "prerequisites": [
+        "eb28e6ae-2166-4b6e-998a-2afee444eb6a"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:lexicon"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "238701b0-8192-4909-869c-42cd9d2d0e6a",
+      "name": "Pure Daisy",
+      "description": "The pure daisy is one of the most important flowers you will create. You will need the pure daisy to purify wood and stone blocks into Livingwood and Livingrock which is used in many Botania recipes. To purify the wood and stone simply place the blocks around the daisy and over time they will change to Livingwood and Livingrock.",
+      "x": 126,
+      "y": 66,
+      "icon": {
+        "id": "botania:specialFlower",
+        "nbt": "{type:\"puredaisy\"}"
+      },
+      "prerequisites": [
+        "bff28b6e-a4ac-495a-8197-eab4ad5f4f65"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:specialFlower",
+                "nbt": "{type:\"puredaisy\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:stone",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "147fb177-c85d-41f3-a28f-2d656ec2a1ba",
+      "name": "Generating Mana",
+      "description": "Mana is the main source of \"power\" in Botania. So, you\u0027re going to have to start making it. To do this you can use the petals given to you in the last quest in the Petal Apothecary. This will create an endoflame which will generate mana when you throw anything combustible at it.",
+      "x": 126,
+      "y": 16,
+      "icon": {
+        "id": "botania:specialFlower",
+        "nbt": "{type:\"endoflame\"}"
+      },
+      "prerequisites": [
+        "bff28b6e-a4ac-495a-8197-eab4ad5f4f65"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:specialFlower",
+                "nbt": "{type:\"endoflame\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "amount": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e58d3e98-5e22-4f7b-9830-b2947c0cd512",
+      "name": "Spreading Mana",
+      "description": "The most important part of having mana is being able to move it around. To do this you will need to create a mana spreader. This is move mana from point A to point B. To do this you will need a wand of the forest. To give it mana shift right click with the wand onto the mana generator or mana storage next shift right click on the spreader. To get the spreader to move mana to an object you have to shift right click it with the wand and then shift right click on the object you would like to transport the mana to.",
+      "x": 174,
+      "y": 66,
+      "icon": {
+        "id": "botania:spreader"
+      },
+      "prerequisites": [
+        "238701b0-8192-4909-869c-42cd9d2d0e6a",
+        "147fb177-c85d-41f3-a28f-2d656ec2a1ba"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:spreader"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a184c9bb-2b1b-46dd-9a43-fd43204a6833",
+      "name": "Portable Storage",
+      "description": "Some tools/items from Botania will require you to have a portable mana storage device, also known as a mana tablet. To put mana into it shift right click on a mana pool with the wand of the forest to change it\u0027s mode, then throw the tablet on top and it should start to drain the pool and fill up the tablet. You can also make a bauble version of the tablet called the Band of Mana which can be worn in your baubles slot.",
+      "x": 231,
+      "y": 35,
+      "icon": {
+        "id": "botania:manaTablet",
+        "nbt": "{mana:500000,creative:1b}"
+      },
+      "prerequisites": [
+        "4dac74ce-d743-4f2b-9ab4-1e286c95ac6d"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaTablet"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "95c9a37a-ff29-4721-9b4a-ff87c1d0e0e8",
+      "name": "Sparks",
+      "description": "Placing a Spark on top of a mana pool and then another on top of another block allows for it to access the reservoirs of the mana pool when needed providing that it isn\u0027t too far away.",
+      "x": 263,
+      "y": 10,
+      "icon": {
+        "id": "botania:spark"
+      },
+      "prerequisites": [
+        "4dac74ce-d743-4f2b-9ab4-1e286c95ac6d"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:spark"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6692557f-09e4-4546-93df-d9e0b1bcfa36",
+      "name": "Terrestrial Agglomeration Plate",
+      "description": "The first step in creating Terrasteel is to create the Terrastrial Agglomeration Plate (TAP). After you have created the TAP you have to place it onto a 3x3 checkerboard pattern of Lapis Lazuli Blocks and Livingrock (See Lexica Botania for image). After you have done that you need to provide it with mana the most effective way of doing this is with sparks.",
+      "x": 279,
+      "y": 96,
+      "icon": {
+        "id": "botania:terraPlate"
+      },
+      "prerequisites": [
+        "b67af8e2-878b-4fb0-ad49-1bf0ddde051e",
+        "95c9a37a-ff29-4721-9b4a-ff87c1d0e0e8"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terraPlate"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ea623198-25c4-4432-bc79-30799bcc4ef4",
+      "name": "Terrasteel",
+      "description": "Now that the Terrestrial Agglomeration Plate is set up toss a single mannasteel ingot, mana diamond and mana pearl onto the plate. Picking any of these items up with pause the infusion and cause a severe mana loss. The infusion will use about half a mana pool to create a single piece of terrasteel.",
+      "x": 250,
+      "y": 140,
+      "icon": {
+        "id": "botania:manaResource",
+        "damage": 4
+      },
+      "prerequisites": [
+        "6692557f-09e4-4546-93df-d9e0b1bcfa36"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eb28e6ae-2166-4b6e-998a-2afee444eb6a",
+      "name": "Punching Flowers",
+      "description": "To get started you are going to need to harvest Mystical Flowers that can be found in your world! They come in a total of 16 different colours harvest as many as you can find.",
+      "x": 20,
+      "y": 30,
+      "icon": {
+        "id": "botania:flower",
+        "damage": 2
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:flower"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:flowerBag"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b67af8e2-878b-4fb0-ad49-1bf0ddde051e",
+      "name": "Runic Altar",
+      "description": "As you move on in Botania and create more complex items and flowers you will need runes. To create these you need to craft a runic altar and send mana to it. To see the items that are needed by the altar use JEI. To put items onto it right click the altar with the item in your hand. To remove items shift right click with an empty hand.",
+      "x": 229,
+      "y": 70,
+      "icon": {
+        "id": "botania:runeAltar"
+      },
+      "prerequisites": [
+        "e58d3e98-5e22-4f7b-9830-b2947c0cd512",
+        "4dac74ce-d743-4f2b-9ab4-1e286c95ac6d"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:runeAltar"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4dac74ce-d743-4f2b-9ab4-1e286c95ac6d",
+      "name": "Mana Storage",
+      "description": "So, you\u0027re generating mana but now you need to store it. To do this you need to create a mana pool.",
+      "x": 174,
+      "y": 17,
+      "icon": {
+        "id": "botania:pool"
+      },
+      "prerequisites": [
+        "238701b0-8192-4909-869c-42cd9d2d0e6a",
+        "147fb177-c85d-41f3-a28f-2d656ec2a1ba"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:pool"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:specialFlower",
+          "nbt": "{type:\"endoflame\"}"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "79061c50-097d-4e70-a9d7-6d0214fec277",
+      "name": "Terra Blade",
+      "description": "The terra blade is a sword that has the same strength as a diamond sword and also repairs with mana. The main feature of the sword is when swung there is a chance that it will create a beam that deals as much damage as a melee hit. This means that you can damage mobs/players at a distance.",
+      "x": 240,
+      "y": 178,
+      "icon": {
+        "id": "botania:terraSword"
+      },
+      "prerequisites": [
+        "ea623198-25c4-4432-bc79-30799bcc4ef4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terraSword"
+              }
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6e852bf7-dd3a-4530-a563-e5deccbbb233",
+      "name": "Mana Steel Items",
+      "description": "Now that you have portable mana storage you may want to make mana steel tools or armour. This will be repaired by the mana in the mana tablet when the tools or armour are damaged.",
+      "x": 296,
+      "y": 35,
+      "icon": {
+        "id": "botania:manasteelPick"
+      },
+      "prerequisites": [
+        "a184c9bb-2b1b-46dd-9a43-fd43204a6833"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:manaResource"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:manaResource",
+          "amount": 3
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3be3884-8480-4b3a-8b02-8f2635f62c5e",
+      "name": "Terra Shatterer",
+      "description": "The Terra Shatterer is a tool that can take in mana in the same way that a mana tablet can however it can not give the mana back. The tool uses the mana to rank up as it advances from rank to rank it will be able to break a larger area. You can change the tools ability by right clicking.",
+      "x": 292,
+      "y": 165,
+      "icon": {
+        "id": "botania:terraPick",
+        "nbt": "{mana:9999}"
+      },
+      "prerequisites": [
+        "ea623198-25c4-4432-bc79-30799bcc4ef4"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "botania:terraPick",
+                "nbt": "{mana:9999}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "botania:blackLotus",
+          "amount": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d28d6319-af04-4741-b04e-a2b2cfb9fd3f",
+      "name": "Wand of the forest",
+      "description": "The most basic tool that you will need in Botania is the wand of the forest. You will use this when tinkering with blocks in Botania. It can also tell you things such as how much mana a block is holding.",
+      "x": 70,
+      "y": 91,
+      "icon": {
+        "id": "botania:twigWand",
+        "nbt": "{color1:0,color2:0,boundTileZ:0,boundTileX:0,boundTileY:-1}"
+      },
+      "prerequisites": [
+        "238701b0-8192-4909-869c-42cd9d2d0e6a"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "368e44a4-fc1d-4aa8-8245-5c959df565d5",
+      "name": "Portal to Alfheim part 2",
+      "description": "Now you have created the main parts to the portal you have to construct it to do this see the Lexica Botania under Alfhomancy then Portal to Alfheim. The portal requires a substantial amount of mana to initially open however doesn\u0027t cost a big amount to keep open. To open the portal simply right click the core with the wand of the forest. Also before you try the portal also only allows items to be sent through it however the Elves seem happy to trade their items your yours.",
+      "x": 132,
+      "y": 114,
+      "icon": {
+        "id": "botania:alfheimPortal"
+      },
+      "prerequisites": [
+        "20a3b1ff-ac49-4d84-bb51-bbfa8395c87f"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:planks"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dee6d650-8b67-4a0e-8a75-187d5a739ea0",
+      "name": "Ritual of Gaia",
+      "description": "To acquire Gaia Spirits you will need to conduct the Ritual of Gaia. You require an active beacon, some gaia pylons and a single terrasteel ingot to sacrifice. The ritual will summon the Gaia Guardian which is stronger than the Wither unpon defeating it, it will drop a handful of Spirits of the Gaia. To see how to set out the structure and for more info see the Lexica Botania.",
+      "x": 59,
+      "y": 153,
+      "icon": {
+        "id": "botania:pylon",
+        "damage": 2
+      },
+      "prerequisites": [
+        "368e44a4-fc1d-4aa8-8245-5c959df565d5"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:beacon"
+              }
+            },
+            {
+              "item": {
+                "id": "botania:pylon",
+                "damage": 2
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
